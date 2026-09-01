@@ -20,7 +20,7 @@ export default function Hero() {
           IDUNI
         </h1>
         <p className="max-w-3xl mt-6 text-lg md:text-xl text-shadow">
-          Un lugar para encontrar fe, comunidad y propósito a través de la palabra de Dios.
+            Iglesia De La Doctrina Universal de Israel
         </p>
         <div className="mt-10">
            <Button asChild size="default" className="text-base">
