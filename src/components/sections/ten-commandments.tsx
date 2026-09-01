@@ -117,12 +117,11 @@ export default function TenCommandments() {
           <div className="p-6 md:p-8">
             <div className="my-8">
                 <Image
-                    src="https://picsum.photos/seed/path-trees/800/600"
-                    alt="Un camino bordeado de árboles"
-                    width={800}
-                    height={600}
-                    className="mx-auto rounded-lg shadow-xl"
-                    data-ai-hint="path trees"
+                    src="/images/ley_imprimir.png"
+                    alt="Los Diez Mandamientos"
+                    width={1683}
+                    height={1190}
+                    className="w-full h-auto mx-auto rounded-lg shadow-xl"
                 />
             </div>
             <blockquote className="pl-6 mt-6 italic border-l-4 font-body border-accent text-lg">
