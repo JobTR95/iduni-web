@@ -5,115 +5,132 @@ import type { Sanctuary } from '@/components/ui/sanctuary-card';
 
 const sanctuariesList: Sanctuary[] = [
   {
-    name: 'Bogotá',
-    address: 'Calle Falsa 123, Bogotá, Colombia',
+    name: 'Sede Principal Bogotá',
+    address: 'Cra 19c #53-68, Barrio San Carlos, Bogotá',
     imageUrl: 'https://picsum.photos/seed/bogota/600/400',
-    mapsUrl: 'https://maps.google.com'
-  },
-  {
-    name: 'Medellín',
-    address: 'Avenida Siempre Viva 742, Medellín, Colombia',
-    imageUrl: 'https://picsum.photos/seed/medellin/600/400',
-    mapsUrl: 'https://maps.google.com'
-  },
-  {
-    name: 'Florencia',
-    address: 'Carrera 10 # 5-50, Florencia, Colombia',
-    imageUrl: 'https://picsum.photos/seed/florencia/600/400',
-    mapsUrl: 'https://maps.google.com'
-  },
-  {
-    name: 'Santa Marta',
-    address: 'Calle 22 # 8-30, Santa Marta, Colombia',
-    imageUrl: 'https://picsum.photos/seed/santamarta/600/400',
-    mapsUrl: 'https://maps.google.com'
-  },
-  {
-    name: 'Puerto Asís',
-    address: 'Calle Principal, Puerto Asís, Colombia',
-    imageUrl: 'https://picsum.photos/seed/puertoasis/600/400',
-    mapsUrl: 'https://maps.google.com'
-  },
-  {
-    name: 'Amazonas',
-    address: 'Leticia, Amazonas, Colombia',
-    imageUrl: 'https://picsum.photos/seed/amazonas/600/400',
-    mapsUrl: 'https://maps.google.com'
-  },
-  {
-    name: 'Manizales',
-    address: 'Carrera 23 # 65-11, Manizales, Colombia',
-    imageUrl: 'https://picsum.photos/seed/manizales/600/400',
-    mapsUrl: 'https://maps.google.com'
-  },
-  {
-    name: 'Huila',
-    address: 'Neiva, Huila, Colombia',
-    imageUrl: 'https://picsum.photos/seed/huila/600/400',
     mapsUrl: 'https://maps.google.com'
   }
 ];
 
 const churchesList: Sanctuary[] = [
-  ...sanctuariesList,
   {
-    name: 'Maicao',
-    address: 'Calle 13 # 10-20, Maicao, Colombia',
-    imageUrl: 'https://picsum.photos/seed/maicao/600/400',
+    name: 'Soacha',
+    address: 'Calle 9 #48K-61, Barrio Danubio, Soacha',
+    imageUrl: 'https://picsum.photos/seed/soacha/600/400',
+    mapsUrl: 'https://maps.google.com'
+  },
+  {
+    name: 'Paipa-Boyacá',
+    address: 'Calle 21 #27-11, Barrio Sausalito',
+    imageUrl: 'https://picsum.photos/seed/paipa/600/400',
+    mapsUrl: 'https://maps.google.com'
+  },
+  {
+    name: 'Santa Marta',
+    address: 'Mz 4 Casa 2, Vereda El Curval',
+    imageUrl: 'https://picsum.photos/seed/santamarta/600/400',
+    mapsUrl: 'https://maps.google.com'
+  },
+  {
+    name: 'Puerto Asís',
+    address: 'Barrio El Prado, Puerto Asís, Putumayo',
+    imageUrl: 'https://picsum.photos/seed/puertoasis/600/400',
+    mapsUrl: 'https://maps.google.com'
+  },
+  {
+    name: 'Pereira',
+    address: 'Carrera 6 #6-23N, Barrio Villavicencio (Antiguo Bavaria)',
+    imageUrl: 'https://picsum.photos/seed/pereira/600/400',
     mapsUrl: 'https://maps.google.com'
   },
   {
     name: 'Riohacha',
-    address: 'Calle 15 # 7-80, Riohacha, Colombia',
+    address: 'Carrera 14C Bis #36-25, Barrio Nuevo Milenio (Detrás del aeropuerto)',
     imageUrl: 'https://picsum.photos/seed/riohacha/600/400',
     mapsUrl: 'https://maps.google.com'
   },
   {
     name: 'Ciénaga',
-    address: 'Calle 8 # 11-1, Ciénaga, Colombia',
+    address: 'Calle 18, Kra 42, Barrio Los Girasoles, Ciénaga, Magdalena',
     imageUrl: 'https://picsum.photos/seed/cienaga/600/400',
     mapsUrl: 'https://maps.google.com'
   },
   {
-    name: 'Pasto',
-    address: 'Carrera 25 # 18-09, Pasto, Colombia',
-    imageUrl: 'https://picsum.photos/seed/pasto/600/400',
-    mapsUrl: 'https://maps.google.com'
-  },
-  {
-    name: 'Anserma Nuevo',
-    address: 'Plaza Principal, Anserma Nuevo, Colombia',
-    imageUrl: 'https://picsum.photos/seed/ansermanuevo/600/400',
-    mapsUrl: 'https://maps.google.com'
-  },
-  {
     name: 'Cali',
-    address: 'Avenida 5N # 21-10, Cali, Colombia',
+    address: 'Carrera 41B #38-19, Barrio Antonio Nariño',
     imageUrl: 'https://picsum.photos/seed/cali/600/400',
     mapsUrl: 'https://maps.google.com'
   },
   {
-    name: 'Soacha',
-    address: 'Diagonal 30, Soacha, Colombia',
-    imageUrl: 'https://picsum.photos/seed/soacha/600/400',
+    name: 'Pasto',
+    address: 'Cra 17E #13-40, Corregimiento de Jamondino, Pasto, Nariño',
+    imageUrl: 'https://picsum.photos/seed/pasto/600/400',
     mapsUrl: 'https://maps.google.com'
   },
   {
-    name: 'Santa Rosa de Cabal',
-    address: 'Parque Principal, Santa Rosa de Cabal, Colombia',
-    imageUrl: 'https://picsum.photos/seed/santarosa/600/400',
-    mapsUrl: 'https://maps.google.com'
-  },
-  {
-    name: 'Montería',
-    address: 'Carrera 2 # 32-25, Montería, Colombia',
-    imageUrl: 'https://picsum.photos/seed/monteria/600/400',
+    name: 'Medellín',
+    address: 'Cll 48D #99B-183 Int 110, Barrio Juan XXIII',
+    imageUrl: 'https://picsum.photos/seed/medellin/600/400',
     mapsUrl: 'https://maps.google.com'
   },
   {
     name: 'Cúcuta',
-    address: 'Avenida 0, Cúcuta, Colombia',
+    address: 'Calle 13 #11-20, Carlos Pizarro, Cúcuta (Sector puente rojo)',
     imageUrl: 'https://picsum.photos/seed/cucuta/600/400',
+    mapsUrl: 'https://maps.google.com'
+  },
+  {
+    name: 'Ibagué',
+    address: 'Calle 15 #11A-51, Ancón',
+    imageUrl: 'https://picsum.photos/seed/ibague/600/400',
+    mapsUrl: 'https://maps.google.com'
+  },
+  {
+    name: 'Anserma',
+    address: 'Calle 7 #9-23, Barrio El Reposo',
+    imageUrl: 'https://picsum.photos/seed/anserma/600/400',
+    mapsUrl: 'https://maps.google.com'
+  },
+  {
+    name: 'Mendihuaca',
+    address: 'Kilómetro 48, Vía La Poza Encantada',
+    imageUrl: 'https://picsum.photos/seed/mendihuaca/600/400',
+    mapsUrl: 'https://maps.google.com'
+  },
+  {
+    name: 'Villavicencio',
+    address: 'Kr 33 #26A-22, Barrio San Marcos (Diagonal a Unicentro)',
+    imageUrl: 'https://picsum.photos/seed/villavicencio/600/400',
+    mapsUrl: 'https://maps.google.com'
+  },
+  {
+    name: 'Maicao',
+    address: 'Carrera 28 #6-61, Barrio Vincula Palacio',
+    imageUrl: 'https://picsum.photos/seed/maicao/600/400',
+    mapsUrl: 'https://maps.google.com'
+  },
+  {
+    name: 'Manizales',
+    address: 'Calle 50B N 39-09, Barrio Guamal',
+    imageUrl: 'https://picsum.photos/seed/manizales/600/400',
+    mapsUrl: 'https://maps.google.com'
+  },
+  {
+    name: 'Yopal',
+    address: 'Calle 60A #03A-04, Barrio Llano Lindo',
+    imageUrl: 'https://picsum.photos/seed/yopal/600/400',
+    mapsUrl: 'https://maps.google.com'
+  },
+  {
+    name: 'Sincelejo',
+    address: 'Cr 18G #46-4, Barrio Uribe Uribe',
+    imageUrl: 'https://picsum.photos/seed/sincelejo/600/400',
+    mapsUrl: 'https://maps.google.com'
+  },
+  {
+    name: 'Montería',
+    address: 'Barrio Villa Los Alpes, Principal de la 22 (Diagonal a ferretería 1A)',
+    imageUrl: 'https://picsum.photos/seed/monteria/600/400',
     mapsUrl: 'https://maps.google.com'
   }
 ];
