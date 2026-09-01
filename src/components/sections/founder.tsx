@@ -1,6 +1,7 @@
 'use client';
 
 import { Card, CardHeader, CardTitle } from '@/components/ui/card';
+import Image from 'next/image';
 import {
   Accordion,
   AccordionContent,
@@ -14,14 +15,13 @@ export default function Founder() {
       <div className="container max-w-screen-lg mx-auto px-4">
         <div className="flex flex-col items-center gap-6 md:gap-8">
           <div className="relative w-full max-w-md mx-auto overflow-hidden rounded-lg shadow-xl aspect-square bg-muted">
-            <iframe
-              className="absolute top-0 left-0 w-full h-full"
-              src="https://www.youtube.com/embed/vnW2fWEOrzI?autoplay=1&mute=1&loop=1&playlist=vnW2fWEOrzI&controls=0&showinfo=0&autohide=1&modestbranding=1&rel=0"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-              loading="lazy"
-            ></iframe>
+            <Image
+              src="/images/fundador.jpeg"
+              alt="Maestro Ezequiel Ataucusi Gamonal"
+              fill
+              sizes="(max-width: 768px) 100vw, 448px"
+              className="object-cover"
+            />
           </div>
           <div className="w-full space-y-4 text-foreground/80">
             <Card className="border-none shadow-none bg-transparent">
