@@ -3,12 +3,11 @@ import Link from 'next/link';
 
 export default function Hero() {
   return (
-    <section className="relative w-full h-[70vh] md:h-[85vh] text-white overflow-hidden">
-      <div className="absolute top-0 left-0 w-full h-full">
+    <section className="relative w-full h-[70vh] md:h-[85vh] text-white overflow-hidden bg-black">
+      <div className="absolute top-1/2 left-1/2 w-full h-full -translate-x-1/2 -translate-y-1/2 p-3 sm:p-6 md:p-10">
         <video
-          className="absolute top-1/2 left-1/2 object-cover transform -translate-x-1/2 -translate-y-1/2"
+          className="w-full h-full object-cover rounded-xl md:rounded-2xl shadow-2xl"
           src="/videos/fondo.mp4"
-          style={{ minWidth: '100%', minHeight: '100%', border: 'none', padding: 0, margin: 0 }}
           autoPlay
           loop
           muted
