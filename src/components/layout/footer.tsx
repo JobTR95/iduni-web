@@ -8,7 +8,8 @@ export default function Footer() {
         <div className="grid grid-cols-1 gap-12 text-center md:grid-cols-3 md:text-left">
           <div className="flex flex-col md:col-span-1">
             <h3 className="mb-4 text-2xl font-bold font-headline">IDUNI</h3>
-            <p className="max-w-md mx-auto text-sm text-muted-foreground md:mx-0">
+            <p className="text-lg font-semibold text-primary">Iglesia De La Doctrina Universal de Israel</p>
+            <p className="max-w-md mx-auto mt-2 text-sm text-muted-foreground md:mx-0">
               Una comunidad de fe, esperanza y amor. Te invitamos a ser parte de nuestra familia y a conocer la palabra de Dios.
             </p>
           </div>
