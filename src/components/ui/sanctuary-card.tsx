@@ -15,9 +15,9 @@ import { Landmark, Map, Navigation } from 'lucide-react';
 
 export interface Sanctuary {
   name: string;
-  address: string;
+  address?: string;
   imageUrl: string;
-  mapsUrl: string;
+  mapsUrl?: string;
 }
 
 interface SanctuaryCardProps {
@@ -51,19 +51,31 @@ export function SanctuaryCard({ sanctuary }: SanctuaryCardProps) {
               data-ai-hint="church building"
             />
           </div>
-          <div className="flex items-start gap-4">
-            <Map className="w-6 h-6 mt-1 text-primary shrink-0" />
-            <div>
-              <h4 className="font-semibold">Dirección</h4>
-              <p className="text-sm text-muted-foreground">{sanctuary.address}</p>
+          {sanctuary.address ? (
+            <div className="flex items-start gap-4">
+              <Map className="w-6 h-6 mt-1 text-primary shrink-0" />
+              <div>
+                <h4 className="font-semibold">Dirección</h4>
+                <p className="text-sm text-muted-foreground">{sanctuary.address}</p>
+              </div>
             </div>
-          </div>
-          <Button asChild className="mt-4">
-            <Link href={sanctuary.mapsUrl} target="_blank" rel="noopener noreferrer">
-              <Navigation className="w-4 h-4 mr-2" />
-              Cómo llegar
-            </Link>
-          </Button>
+          ) : (
+            <div className="flex items-start gap-4">
+              <Map className="w-6 h-6 mt-1 text-primary shrink-0" />
+              <div>
+                <h4 className="font-semibold">Dirección</h4>
+                <p className="text-sm text-muted-foreground">Información próximamente</p>
+              </div>
+            </div>
+          )}
+          {sanctuary.mapsUrl && (
+            <Button asChild className="mt-4">
+              <Link href={sanctuary.mapsUrl} target="_blank" rel="noopener noreferrer">
+                <Navigation className="w-4 h-4 mr-2" />
+                Cómo llegar
+              </Link>
+            </Button>
+          )}
         </div>
       </DialogContent>
     </Dialog>

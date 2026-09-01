@@ -132,6 +132,22 @@ const churchesList: Sanctuary[] = [
     address: 'Barrio Villa Los Alpes, Principal de la 22 (Diagonal a ferretería 1A)',
     imageUrl: 'https://picsum.photos/seed/monteria/600/400',
     mapsUrl: 'https://maps.google.com'
+  },
+  {
+    name: 'Florencia',
+    imageUrl: 'https://picsum.photos/seed/florencia/600/400'
+  },
+  {
+    name: 'La Argentina (Huila)',
+    imageUrl: 'https://picsum.photos/seed/argentina/600/400'
+  },
+  {
+    name: 'Amazonas',
+    imageUrl: 'https://picsum.photos/seed/amazonas/600/400'
+  },
+  {
+    name: 'Santa Rosa de Cabal',
+    imageUrl: 'https://picsum.photos/seed/santarosa/600/400'
   }
 ];
 
