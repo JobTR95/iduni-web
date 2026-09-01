@@ -1,21 +1,43 @@
+'use client';
+
+import { useState } from 'react';
+import Image from 'next/image';
 import { Card, CardContent } from '@/components/ui/card';
-import { Camera, Users, PartyPopper, BookOpen, Handshake } from 'lucide-react';
+import {
+  Dialog,
+  DialogContent,
+  DialogHeader,
+  DialogTitle,
+} from '@/components/ui/dialog';
+import {
+  Camera,
+  Users,
+  PartyPopper,
+  BookOpen,
+  Handshake,
+  ImageOff,
+} from 'lucide-react';
+import { fotosDeCategoria } from '@/lib/galeria';
 
 const galleryCategories = [
   {
     title: 'Cultos y Reuniones',
+    slug: 'cultos-reuniones',
     icon: <Camera className="w-16 h-16 mx-auto text-muted-foreground group-hover:text-primary transition-colors" />,
   },
   {
     title: 'Comunidad y Hermandad',
+    slug: 'comunidad-hermandad',
     icon: <Users className="w-16 h-16 mx-auto text-muted-foreground group-hover:text-primary transition-colors" />,
   },
   {
     title: 'Festividades Sagradas',
+    slug: 'festividades-sagradas',
     icon: <PartyPopper className="w-16 h-16 mx-auto text-muted-foreground group-hover:text-primary transition-colors" />,
   },
   {
     title: 'Momentos de Oración',
+    slug: 'momentos-oracion',
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -40,15 +62,20 @@ const galleryCategories = [
   },
   {
     title: 'Estudios Bíblicos',
+    slug: 'estudios-biblicos',
     icon: <BookOpen className="w-16 h-16 mx-auto text-muted-foreground group-hover:text-primary transition-colors" />,
   },
   {
     title: 'Servicio Comunitario',
+    slug: 'servicio-comunitario',
     icon: <Handshake className="w-16 h-16 mx-auto text-muted-foreground group-hover:text-primary transition-colors" />,
   },
 ];
 
 export default function Gallery() {
+  const [activeCategory, setActiveCategory] = useState<(typeof galleryCategories)[number] | null>(null);
+  const fotos = activeCategory ? fotosDeCategoria(activeCategory.slug) : [];
+
   return (
     <section id="gallery" className="py-16 md:py-24 bg-background">
       <div className="container max-w-screen-lg mx-auto">
@@ -71,6 +98,7 @@ export default function Gallery() {
           {galleryCategories.map((category) => (
             <Card
               key={category.title}
+              onClick={() => setActiveCategory(category)}
               className="group text-center transition-all duration-300 ease-in-out border-2 border-primary/20 hover:border-primary hover:shadow-2xl cursor-pointer"
             >
               <CardContent className="flex flex-col items-center justify-center h-56 p-6">
@@ -83,6 +111,44 @@ export default function Gallery() {
           ))}
         </div>
       </div>
+
+      <Dialog open={activeCategory !== null} onOpenChange={(open) => { if (!open) setActiveCategory(null); }}>
+        <DialogContent className="sm:max-w-4xl max-h-[85vh] overflow-y-auto">
+          <DialogHeader>
+            <DialogTitle className="font-headline text-primary text-2xl">
+              {activeCategory?.title}
+            </DialogTitle>
+          </DialogHeader>
+          {fotos.length > 0 ? (
+            <div className="grid grid-cols-1 gap-4 py-2 md:grid-cols-2 lg:grid-cols-3">
+              {fotos.map((foto) => (
+                <div
+                  key={foto}
+                  className="relative aspect-[4/3] overflow-hidden rounded-lg border border-border"
+                >
+                  <Image
+                    src={foto}
+                    alt={`Fotografía de ${activeCategory?.title}`}
+                    fill
+                    sizes="(max-width: 768px) 100vw, 33vw"
+                    className="object-cover"
+                  />
+                </div>
+              ))}
+            </div>
+          ) : (
+            <div className="flex flex-col items-center justify-center py-12 text-center gap-4">
+              <ImageOff className="w-16 h-16 text-muted-foreground" />
+              <p className="text-lg text-muted-foreground">
+                Aún no hay fotografías en esta categoría.
+              </p>
+              <p className="text-sm text-muted-foreground/80">
+                Pronto compartiremos los momentos de {activeCategory?.title.toLowerCase()}.
+              </p>
+            </div>
+          )}
+        </DialogContent>
+      </Dialog>
     </section>
   );
 }
