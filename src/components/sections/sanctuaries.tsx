@@ -3,12 +3,15 @@
 import { SanctuaryCard } from '@/components/ui/sanctuary-card';
 import type { Sanctuary } from '@/components/ui/sanctuary-card';
 
+const mapsUrlFor = (address: string): string =>
+  `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(address)}`;
+
 const sanctuariesList: Sanctuary[] = [
   {
     name: 'Sede Principal Bogotá',
     address: 'Cra 19c #53-68, Barrio San Carlos, Bogotá',
     imageUrl: 'https://picsum.photos/seed/bogota/600/400',
-    mapsUrl: 'https://maps.google.com'
+    mapsUrl: mapsUrlFor('Cra 19c #53-68, Barrio San Carlos, Bogotá')
   }
 ];
 
@@ -17,121 +20,121 @@ const churchesList: Sanctuary[] = [
     name: 'Soacha',
     address: 'Calle 9 #48K-61, Barrio Danubio, Soacha',
     imageUrl: 'https://picsum.photos/seed/soacha/600/400',
-    mapsUrl: 'https://maps.google.com'
+    mapsUrl: mapsUrlFor('Calle 9 #48K-61, Barrio Danubio, Soacha')
   },
   {
     name: 'Paipa-Boyacá',
     address: 'Calle 21 #27-11, Barrio Sausalito',
     imageUrl: 'https://picsum.photos/seed/paipa/600/400',
-    mapsUrl: 'https://maps.google.com'
+    mapsUrl: mapsUrlFor('Calle 21 #27-11, Barrio Sausalito')
   },
   {
     name: 'Santa Marta',
     address: 'Mz 4 Casa 2, Vereda El Curval',
     imageUrl: 'https://picsum.photos/seed/santamarta/600/400',
-    mapsUrl: 'https://maps.google.com'
+    mapsUrl: mapsUrlFor('Mz 4 Casa 2, Vereda El Curval')
   },
   {
     name: 'Puerto Asís',
     address: 'Barrio El Prado, Puerto Asís, Putumayo',
     imageUrl: 'https://picsum.photos/seed/puertoasis/600/400',
-    mapsUrl: 'https://maps.google.com'
+    mapsUrl: mapsUrlFor('Barrio El Prado, Puerto Asís, Putumayo')
   },
   {
     name: 'Pereira',
     address: 'Carrera 6 #6-23N, Barrio Villavicencio (Antiguo Bavaria)',
     imageUrl: 'https://picsum.photos/seed/pereira/600/400',
-    mapsUrl: 'https://maps.google.com'
+    mapsUrl: mapsUrlFor('Carrera 6 #6-23N, Barrio Villavicencio (Antiguo Bavaria)')
   },
   {
     name: 'Riohacha',
     address: 'Carrera 14C Bis #36-25, Barrio Nuevo Milenio (Detrás del aeropuerto)',
     imageUrl: 'https://picsum.photos/seed/riohacha/600/400',
-    mapsUrl: 'https://maps.google.com'
+    mapsUrl: mapsUrlFor('Carrera 14C Bis #36-25, Barrio Nuevo Milenio (Detrás del aeropuerto)')
   },
   {
     name: 'Ciénaga',
     address: 'Calle 18, Kra 42, Barrio Los Girasoles, Ciénaga, Magdalena',
     imageUrl: 'https://picsum.photos/seed/cienaga/600/400',
-    mapsUrl: 'https://maps.google.com'
+    mapsUrl: mapsUrlFor('Calle 18, Kra 42, Barrio Los Girasoles, Ciénaga, Magdalena')
   },
   {
     name: 'Cali',
     address: 'Carrera 41B #38-19, Barrio Antonio Nariño',
     imageUrl: 'https://picsum.photos/seed/cali/600/400',
-    mapsUrl: 'https://maps.google.com'
+    mapsUrl: mapsUrlFor('Carrera 41B #38-19, Barrio Antonio Nariño')
   },
   {
     name: 'Pasto',
     address: 'Cra 17E #13-40, Corregimiento de Jamondino, Pasto, Nariño',
     imageUrl: 'https://picsum.photos/seed/pasto/600/400',
-    mapsUrl: 'https://maps.google.com'
+    mapsUrl: mapsUrlFor('Cra 17E #13-40, Corregimiento de Jamondino, Pasto, Nariño')
   },
   {
     name: 'Medellín',
     address: 'Cll 48D #99B-183 Int 110, Barrio Juan XXIII',
     imageUrl: 'https://picsum.photos/seed/medellin/600/400',
-    mapsUrl: 'https://maps.google.com'
+    mapsUrl: mapsUrlFor('Cll 48D #99B-183 Int 110, Barrio Juan XXIII')
   },
   {
     name: 'Cúcuta',
     address: 'Calle 13 #11-20, Carlos Pizarro, Cúcuta (Sector puente rojo)',
     imageUrl: 'https://picsum.photos/seed/cucuta/600/400',
-    mapsUrl: 'https://maps.google.com'
+    mapsUrl: mapsUrlFor('Calle 13 #11-20, Carlos Pizarro, Cúcuta (Sector puente rojo)')
   },
   {
     name: 'Ibagué',
     address: 'Calle 15 #11A-51, Ancón',
     imageUrl: 'https://picsum.photos/seed/ibague/600/400',
-    mapsUrl: 'https://maps.google.com'
+    mapsUrl: mapsUrlFor('Calle 15 #11A-51, Ancón')
   },
   {
     name: 'Anserma',
     address: 'Calle 7 #9-23, Barrio El Reposo',
     imageUrl: 'https://picsum.photos/seed/anserma/600/400',
-    mapsUrl: 'https://maps.google.com'
+    mapsUrl: mapsUrlFor('Calle 7 #9-23, Barrio El Reposo')
   },
   {
     name: 'Mendihuaca',
     address: 'Kilómetro 48, Vía La Poza Encantada',
     imageUrl: 'https://picsum.photos/seed/mendihuaca/600/400',
-    mapsUrl: 'https://maps.google.com'
+    mapsUrl: mapsUrlFor('Kilómetro 48, Vía La Poza Encantada')
   },
   {
     name: 'Villavicencio',
     address: 'Kr 33 #26A-22, Barrio San Marcos (Diagonal a Unicentro)',
     imageUrl: 'https://picsum.photos/seed/villavicencio/600/400',
-    mapsUrl: 'https://maps.google.com'
+    mapsUrl: mapsUrlFor('Kr 33 #26A-22, Barrio San Marcos (Diagonal a Unicentro)')
   },
   {
     name: 'Maicao',
     address: 'Carrera 28 #6-61, Barrio Vincula Palacio',
     imageUrl: 'https://picsum.photos/seed/maicao/600/400',
-    mapsUrl: 'https://maps.google.com'
+    mapsUrl: mapsUrlFor('Carrera 28 #6-61, Barrio Vincula Palacio')
   },
   {
     name: 'Manizales',
     address: 'Calle 50B N 39-09, Barrio Guamal',
     imageUrl: 'https://picsum.photos/seed/manizales/600/400',
-    mapsUrl: 'https://maps.google.com'
+    mapsUrl: mapsUrlFor('Calle 50B N 39-09, Barrio Guamal')
   },
   {
     name: 'Yopal',
     address: 'Calle 60A #03A-04, Barrio Llano Lindo',
     imageUrl: 'https://picsum.photos/seed/yopal/600/400',
-    mapsUrl: 'https://maps.google.com'
+    mapsUrl: mapsUrlFor('Calle 60A #03A-04, Barrio Llano Lindo')
   },
   {
     name: 'Sincelejo',
     address: 'Cr 18G #46-4, Barrio Uribe Uribe',
     imageUrl: 'https://picsum.photos/seed/sincelejo/600/400',
-    mapsUrl: 'https://maps.google.com'
+    mapsUrl: mapsUrlFor('Cr 18G #46-4, Barrio Uribe Uribe')
   },
   {
     name: 'Montería',
     address: 'Barrio Villa Los Alpes, Principal de la 22 (Diagonal a ferretería 1A)',
     imageUrl: 'https://picsum.photos/seed/monteria/600/400',
-    mapsUrl: 'https://maps.google.com'
+    mapsUrl: mapsUrlFor('Barrio Villa Los Alpes, Principal de la 22 (Diagonal a ferretería 1A)')
   },
   {
     name: 'Florencia',
