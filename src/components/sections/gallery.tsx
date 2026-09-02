@@ -17,7 +17,6 @@ import {
   Handshake,
   ImageOff,
 } from 'lucide-react';
-import { fotosDeCategoria } from '@/lib/galeria';
 
 const galleryCategories = [
   {
@@ -72,9 +71,13 @@ const galleryCategories = [
   },
 ];
 
-export default function Gallery() {
+export default function Gallery({
+  fotosPorCategoria,
+}: {
+  fotosPorCategoria: Record<string, string[]>;
+}) {
   const [activeCategory, setActiveCategory] = useState<(typeof galleryCategories)[number] | null>(null);
-  const fotos = activeCategory ? fotosDeCategoria(activeCategory.slug) : [];
+  const fotos = activeCategory ? (fotosPorCategoria[activeCategory.slug] ?? []) : [];
 
   return (
     <section id="gallery" className="py-16 md:py-24 bg-background">
