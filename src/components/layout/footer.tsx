@@ -18,7 +18,7 @@ export default function Footer() {
             <div className="space-y-3 text-sm text-muted-foreground">
               <div className="flex items-center justify-center gap-3 md:justify-start">
                 <MapPin className="w-4 h-4 text-primary" />
-                <span>Calle 68c Sur Nº48-16, Bogotá</span>
+                <span>Cra 19c #53-68, Barrio San Carlos</span>
               </div>
               <div className="flex items-center justify-center gap-3 md:justify-start">
                 <Mail className="w-4 h-4 text-primary" />
