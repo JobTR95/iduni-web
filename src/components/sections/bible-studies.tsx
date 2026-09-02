@@ -762,8 +762,220 @@ Creemos en un solo Dios, Jehová de los ejércitos, creador de los cielos y de l
 `;
 
 const elJuicioDeDiosContent = `
-**El Juicio de Dios**
 Dios ha decretado para esta tercera generación un juicio, a causa de la multitud de nuestros pecados, los cuales ya han llegado al cielo y Dios se ha acordado de nuestras maldades.
+
+**Mateo 24:38,39**
+38. Porque como en los días antes del diluvio estaban comiendo y bebiendo, casándose y dando en casamiento, hasta el día que Noé entró en el arca.
+39. Y no conocieron hasta que vino el diluvio y llevó á todos, así será también la venida del Hijo del hombre.
+
+Ex. La primera generación fue en tiempos de Noé, quien predicó sobre el juicio de Dios 120 años, pero nadie le creyó, antes cogían piedras y palos y lo ultrajaban, lo querían matar, y cuando llegó el juicio por agua los consumió a todos, sólo se salvaron 8 personas.
+
+**Lucas 17:28,29,30**
+28. Asimismo también como fué en los días de Lot; comían, bebían, compraban, vendían, plantaban, edificaban;
+29. Mas el día que Lot salió de Sodoma, llovió del cielo fuego y azufre, y destruyó á todos: 30. Como esto será el día en que el Hijo del hombre se manifestará.
+
+Ex. Del tiempo de Noé, que se salvaron sólo ocho personas, se multiplicó la segunda generación. Lot, varón temeroso de Dios, igualmente predicó sobre el juicio de Dios y de la misma manera, nadie le creyó, sino hasta el día que descendió fuego y azufre del cielo que consumió a todos, solamente se salvaron tres personas. Ellos predicaban desde mucho tiempo antes de que viniera nuestro Señor Jesucristo.
+
+**Génesis 19:15,17**
+15. Y al rayar el alba, los ángeles daban prisa á Lot, diciendo: Levántate, toma tu mujer, y tus dos hijas que se hallan aquí, porque no perezcas en el castigo de la ciudad.
+17. Y fué que cuando los hubo sacado fuera, dijo: Escapa por tu vida; no mires tras ti, ni pares en toda esta llanura; escapa al monte, no sea que perezcas.
+
+Ex. Los ángeles enviados por Dios vinieron a Lot y a Abraham y los apercibieron diciendo: "Escapa por tu vida... escapa al monte", de igual manera hizo Abraham, se internó en los montes con toda la gente que lo había seguido y creído a sus palabras, fueron los únicos que sobrevivieron al castigo de Dios.
+
+¿Quiénes estaban con Abraham?
+
+**Génesis 12:5**
+Y tomó Abram á Sarai su mujer, y á Lot hijo de su hermano, y toda su hacienda que habían ganado, y las almas que habían adquirido en Harán, y salieron para ir á tierra de Canaán; y á tierra de Canaán llegaron.
+"las almas que habían adquirido", eran todos aquellos quienes habían creído a la predicación. Aunque muchos más creyeron a las palabras de Abraham, que les decía, en tal tiempo o en tal fecha caerá del cielo fuego y azufre, y llegado ese día no pasó nada, entonces renegaron de Abraham y se regresaron a sus costumbres mundanas; de esa manera Dios los probó y así mismo tendrá que suceder en este tiempo, seremos probados de muchas maneras, seremos zarandeados de diferentes formas y si somos flacos en la fe dejaremos a Dios y nos iremos al mundo. Flaqueamos en nuestra fe porque no nos preocupamos en estudiar, por el contrario, antes nos dedicamos a las cosas materiales, y a pesar de esto, es tan grande la misericordia de Dios, que día tras día nos aconseja ser fuertes y valientes para permanecer dentro de su pueblo.
+Hay que tener en cuenta, que la ley fue entregada mucho tiempo después al profeta Moisés, a nadie más, y ellos, Noé, Lot y Abraham, sólo profetizaban y predicaban del juicio, de nada más, y así les llegó el juicio a esas dos generaciones, sin conocer de la ley de Dios.
+
+**Ezequiel 7:2,3,6**
+2. Y tú, hijo del hombre, así ha dicho el Señor Jehová á la tierra de Israel: El fin, el fin viene sobre los cuatro cantones de la tierra.
+3. Ahora será el fin sobre ti, y enviaré sobre ti mi furor, y te juzgaré según tus caminos; y pondré sobre ti todas tus abominaciones.
+6. Viene el fin, el fin viene: hase despertado contra ti; he aquí que viene.
+
+Ex. Aquí podemos ver, que ya de tiempo atrás estaba determinado el juicio para esta tercera generación, es por eso que debemos despertar conciencia sobre el castigo que viene para nosotros.
+
+**Mateo 24:14**
+Y será predicado este evangelio del reino en todo el mundo, por testimonio á todos los Gentiles; y entonces vendrá el fin.
+
+Ex. Todo el mundo tiene que conocer el mandamiento de Dios para que se arrepientan y los que no lo hagan, mueran sin ser inocentes del juicio de Dios.
+
+**Amós 8:2**
+Y dijo: ¿Qué ves, Amós? Y dije: Un canastillo de fruta de verano. Y díjome Jehová: Venido ha el fin sobre mi pueblo Israel; no le pasaré más.
+
+Ex. Está refiriéndose al juicio para esta tercera generación. Dios ha dado a cada generación dos mil años; de Noé a Lot, de Lot a nuestro Señor Jesucristo y de ahí hasta nuestros días, dos mil más.
+
+**Mateo 24:34,35**
+34. De cierto os digo, que no pasará esta generación, que todas estas cosas no acontezcan.
+35. El cielo y la tierra pasarán, mas mis palabras no pasarán.
+
+Ex. El Señor Jesús hablaba de esta tercera generación, y antes de que llegue el fin, toda la humanidad tiene que conocer la verdad de Dios.
+"El cielo y la tierra pasarán", esa es la razón por la que debemos huir a las montañas, porque desde el momento en que se declare el juicio, todos querrán ir allá, pero será demasiado tarde, porque los estarán buscando para matarlos. Así mismo pasó en el tiempo antiguo con Noé, la gente le gritaba para que abriese la puerta del arca, pero ya no se podía, ya era demasiado tarde porque Dios mismo la había cerrado.
+Hace más de treinta y nueve años que nuestro Maestro está predicando del juicio, ya pasaron cuatro años en los que se viene manifestando lentamente, poco a poco.
+
+**Daniel 12:1**
+Y en aquel tiempo se levantará Miguel, el gran príncipe que está por los hijos de tu pueblo; y será tiempo de angustia, cual nunca fué después que hubo gente hasta entonces: mas en aquel tiempo será libertado tu pueblo, todos los que se hallaren escritos en el libro.
+
+¿Quién está por los hijos de su pueblo?
+
+Ex. "Miguel, el gran príncipe", en hebreo es Israel, Príncipe de Dios.
+"será tiempo de angustia", durante los siete años de juicio tendrán que suceder muchas cosas terribles.
+
+**Génesis 32:28**
+Y él dijo: No se dirá más tu nombre Jacob, sino Israel: porque has peleado con Dios y con los hombres, y has vencido.
+
+**Apocalipsis 3:5**
+El que venciere, será vestido de vestiduras blancas; y no borraré su nombre del libro de la vida, y confesaré su nombre delante de mi Padre, y delante de sus ángeles.
+
+Ex. Como bien sabemos, en el cielo hay dos libros, el de la vida y el de la muerte; en el de la vida hay millones de nombres escritos, para que esto se cumpla, pero para que esto se cumpla debemos de predicar, para así poder reunir a todos ellos.
+Si se llegara a manifestar el juicio de Dios y no hemos predicado a la humanidad, Dios castigará al pueblo por desobediente, por no cumplir por predicar. Al traer una persona a la congregación ya hemos cumplido con nuestra responsabilidad, el resto le corresponde a Dios y a esa persona para que continúe por el camino de salvación.
+Aunque aún no andamos en perfección, nuestro Señor todavía nos quiere, soportándonos con nuestros chismes, nuestras mentiras, siendo como cangrejos, sólo yendo hacia atrás en vez de avanzar en las cosas de Dios, pero siempre y cuando continuemos luchando por buscar nuestra perfección y permanezcamos dentro de su pueblo, porque nuestros nombres están escritos en el libro de la vida, pero si nos llegásemos a retirar, serán borrados y pasados al libro de la muerte.
+Para poder mantenernos dentro el pueblo de Dios, debemos de predicar al igual que lo hicieron nuestros antiguos padres.
+
+¿En qué nombre tenemos que predicar?
+
+**Lucas 24:47**
+Y que se predicase en su nombre el arrepentimiento y la remisión de pecados en todas las naciones, comenzando de Jerusalem.
+
+Ex. "En su nombre", en el nombre de Israel, en el nombre de Ezequiel, el Hijo del Hombre.
+"en todas las naciones", a toda la humanidad. Se les debe hablar de Israel y de la ley de Dios.
+
+**Apocalipsis 15:4**
+¿Quién no te temerá, oh Señor, y engrandecerá tu nombre? porque tú sólo eres santo; por lo cual todas las naciones vendrán, y adorarán delante de ti, porque tus juicios son manifestados.
+
+Ex. Todo el mundo, toda la humanidad debe conocer el nombre del Hijo de Dios y venir a doblar rodilla delante de él.
+
+**Éxodo 20:5**
+No te inclinarás á ellas, ni las honrarás; porque yo soy Jehová tu Dios, fuerte, celoso, que visito la maldad de los padres sobre los hijos, sobre los terceros y sobre los cuartos, á los que me aborrecen.
+
+Ex. "que visito la maldad", Dios en el pasado, ha hecho dos visitaciones a la humanidad, en el tiempo de Noé y en el tiempo de Lot.
+"los padres", patriarca Noé.
+"los hijos", Lot y Abraham.
+"los terceros", tercera generación, esta generación.
+"los cuartos", cuarta generación, cuarto juicio.
+
+**Éxodo 23:21**
+Guárdate delante de él, y oye su voz; no le seas rebelde; porque él no perdonará vuestra rebelión: porque mi nombre está en él.
+
+Ex. "oye su voz; no le seas rebelde", debemos escuchar la voz de Dios y no ser desobedientes, porque Dios ha dado un tiempo determinado al pueblo Israelita para que predique a la humanidad; cuando ese tiempo sea cumplido, Dios empezará a juzgar a la humanidad y si nosotros no hemos cumplido, entonces vamos a morir, por rebeldes, entonces la promesa de Dios se regresa para el oriente, así como en el tiempo antiguo, cuando por su desobediencia perdieron la promesa.
+
+**Romanos 11:20,11**
+20. Bien: por su incredulidad fueron quebradas, mas tú por la fe estás en pie. No te ensoberbezcas, antes teme.
+11. Digo pues: ¿Han tropezado para que cayesen? En ninguna manera; mas por el tropiezo de ellos vino la salud á los Gentiles, para que fuesen provocados á celos.
+
+En la antigüedad, Dios castigó a su pueblo por su incredulidad, desobediencia y rebeldía; ahora, que por esta causa la salud, la promesa, ha pasado a los gentiles, cuánto más no nos castigará a nosotros, si somos también desobedientes y no salimos a predicar, entonces la Sustancia de la fe se va a regresar al oriente. La Sustancia de la fe es el Espíritu Santo.
+
+**Mateo 25:31,32**
+31. Y cuando el Hijo del hombre venga en su gloria, y todos los santos ángeles con él, entonces se sentará sobre el trono de su gloria.
+32. Y serán reunidas delante de él todas las gentes: y los apartará los unos de los otros, como aparta el pastor las ovejas de los cabritos.
+
+Ex. Delante del Hijo del Hombre estarán vivos y muertos, buenos y malos, nadie va a librarse del castigo de Dios y cuánto menos los Israelitas.
+
+**Daniel 12:2**
+Y muchos de los que duermen en el polvo de la tierra serán despertados, unos para vida eterna, y otros para vergüenza y confusión perpetua.
+
+Ex. A pesar de que todos los muertos van a ser despertados, no todos van a ser para vida, sino que muchos van a ser para muerte.
+
+¿Por qué?
+
+**Apocalipsis 20:12**
+Y vi los muertos, grandes y pequeños, que estaban delante de Dios; y los libros fueron abiertos: y otro libro fué abierto, el cual es de la vida: y fueron juzgados los muertos por las cosas que estaban escritas en los libros, según sus obras.
+
+Ex. De acuerdo a las obras que cada uno haya hecho, así mismo será el castigo, todos daremos cuentas, grandes y chicos, ¿ven?
+Aunque nos parezca locura, en los días santificados siempre hay un apóstol escribiendo todo lo que nosotros estamos haciendo en estos días santos y todo lo que va quedando registrado en los libros, al final nos llevará a la vida o a la condenación.
+
+**1 Pedro 4:5**
+Los cuales darán cuenta al que está aparejado para juzgar los vivos y los muertos.
+
+Todos tenemos que presentarnos ante alguien a quien Dios ha encargado para que nos juzgue de acuerdo a las obras realizadas.
+
+**Hechos 10:40,41,42**
+40. A éste levantó Dios al tercer día, é hizo que apareciese manifiesto,
+41. No á todo el pueblo, sino á los testigos que Dios antes había ordenado, es á saber, á nosotros que comimos y bebimos con él, después que resucitó de los muertos.
+42. Y nos mandó que predicásemos al pueblo, y testificásemos que él es el que Dios ha puesto por Juez de vivos y muertos.
+
+Ex. Aquel a quien Dios encargó el juicio, lo levanta en el día postrero, habiéndolo manifestado no a todo el mundo, sino a los apóstoles, quienes fueron conocedores de este misterio de Dios.
+
+**Salmos 147:19,20**
+19. El denuncia sus palabras á Jacob, Sus estatutos y sus juicios á Israel.
+20. No ha hecho esto con toda gente; Y no conocieron sus juicios. Aleluya.
+
+Ex. Dios aparejó a sus testigos y el juicio lo dio a Israel, él es quien nos va a juzgar.
+
+**San Juan 13:18**
+No hablo de todos vosotros: yo sé los que he elegido: mas para que se cumpla la Escritura: El que come pan conmigo, levantó contra mí su calcañar.
+
+Ex. Dios sabe y conoce muy bien a quienes ha elegido; ahora, los que comieron con él son sus apóstoles.
+
+**Mateo 25:41**
+Entonces dirá también á los que estarán á la izquierda: Apartaos de mí, malditos, al fuego eterno preparado para el diablo y para sus ángeles.
+
+Ex. Cuando llegue la hora del juzgamiento, a todos aquellos desobedientes y malvados los castigará echándolos al lago de fuego y azufre.
+
+¿Quién es el que condenará?
+
+**Romanos 8:34**
+¿Quién es el que condenará? Cristo es el que murió; más aún, el que también resucitó, quien además está á la diestra de Dios, el que también intercede por nosotros.
+
+**Mateo 16:27**
+Porque el Hijo del hombre vendrá en la gloria de su Padre con sus ángeles, y entonces pagará á cada uno conforme á sus obras.
+
+Ex. Cristo o el Hijo del Hombre, el mismo es, y dará el pago correspondiente a cada uno según sus obras.
+Sus obras fueron buenas, honra y vida eterna.
+Sus obras fueron malas, castigo en el lago de fuego y azufre.
+
+¿Cuál será el pago para los que no conocieron a Dios?
+
+**2 Tesalonicenses 1:8,9**
+8. En llama de fuego, para dar el pago á los que no conocieron á Dios, ni obedecen al evangelio de nuestro Señor Jesucristo;
+9. Los cuales serán castigados de eterna perdición por la presencia del Señor, y por la gloria de su potencia.
+
+**Deuteronomio 32:35**
+Mía es la venganza y el pago, Al tiempo que su pie vacilará; Porque el día de su aflicción está cercano, Y lo que les está preparado se apresura.
+
+Ex. Dios desde un principio tiene preparado el juicio para esta tercera generación y ya está en las puertas, en cualquier momento se puede desatar, por tal razón debemos preocuparnos por salir a predicar y es al salir cuando recibiremos los ministerios de parte de Dios.
+
+**Job 34:11**
+Porque él pagará al hombre según su obra, Y él le hará hallar conforme á su camino.
+
+Ex. De acuerdo a la preocupación y dedicación de cada uno, así mismo recibirá don de Dios y conforme a sus obras vivirá.
+
+**Romanos 6:23**
+Porque la paga del pecado es muerte: mas la dádiva de Dios es vida eterna en Cristo Jesús Señor nuestro.
+
+Ex. Si pecamos contra Dios y en lugar de corregirnos obedeciendo su mandamiento, continuamos siendo rebeldes a su llamado, entonces nuestra paga será castigo eterno.
+Si todos nos preocupáramos por trabajar en la obra de Dios predicando, entonces ayudaríamos a que la promesa de Dios no se pierda y a que muchos de los que están inscritos en el libro de la muerte sean pasados al libro de la vida y también se salven.
+
+**Jeremías 18:8,9,10**
+8. Empero si esas gentes se convirtieren de su maldad, de que habré hablado, yo me arrepentiré del mal que había pensado hacerles.
+9. Y en un instante hablaré de la gente y del reino, para edificar y para plantar;
+10. Pero si hiciere lo malo delante de mis ojos, no oyendo mi voz, arrepentiréme del bien que había determinado hacerle.
+
+Ex. Aquí vemos que si toda la humanidad se arrepiente y hace lo que Dios ordena, entonces Dios se arrepentirá del castigo que tiene pensado darnos; pero, si por el contrario, persistimos en no servirle, así mismo también él se arrepentirá del bien que pensaba hacernos.
+
+**Génesis 18:26,32**
+26. Entonces respondió Jehová: Si hallare en Sodoma cincuenta justos dentro de la ciudad, perdonaré á todo este lugar por amor de ellos.
+32. Y volvió á decir: No se enoje ahora mi Señor, si hablare solamente una vez: quizá se hallarán allí diez. No la destruiré, respondió, por amor de los diez.
+
+Ex. La misericordia de Dios es tan grande, que por unos cuantos pocos que decididamente se dediquen a predicar sobre el arrepentimiento a toda la humanidad, Dios no enviará la destrucción sobre estos que atendieren a su voz.
+
+**Isaías 27:1**
+En aquel día Jehová visitará con su espada dura, grande y fuerte, sobre leviathán, serpiente rolliza, y sobre leviathán serpiente retuerta; y matará al dragón que está en la mar.
+
+Ex. Dios enviará su espada, el juicio, sobre el adversario, así será libertado su pueblo en aquel día, librado del castigo.
+
+**Joel 2:32**
+Y será que cualquiera que invocare el nombre de Jehová, será salvo: porque en el monte de Sión y en Jerusalem habrá salvación, como Jehová ha dicho, y en los que quedaren, á los cuales Jehová habrá llamado.
+
+Ex. Todo aquel que predique el nombre del Hijo de Dios, de Israel, este será salvo, de lo contrario no podrá obtener la salvación.
+
+**Jeremías 23:6**
+En sus días será salvo Judá, é Israel habitará confiado: y este será su nombre que le llamarán: JEHOVA, JUSTICIA NUESTRA.
+
+Ex. Judá o Israel, el mismo son, y la justicia de Dios será manifestada por medio del Hijo del Hombre, porque él es la habitación de Dios, en el mora el Espíritu de Dios.
+
+Biblia Versión Reina Valera 1909
 `;
 
 const BibleStudyContent = ({ content }: { content: string }) => {
