@@ -624,8 +624,136 @@ Biblia Version Reina Valera 1909
 `;
 
 const elArrepentimientoContent = `
-**¿Por qué la humanidad hasta ahora, no se arrepiente y cuál es la causa?**
-En primer orden es necesario entender la causa.
+En primer orden es necesario entender ¿Por qué la humanidad hasta ahora, no se arrepiente y cuál es la causa?
+
+**Deuteronomio 9:13**
+Y hablóme Jehová, diciendo: He visto ese pueblo, y he aquí, que él es pueblo duro de cerviz.
+
+Ex. ¿A quién llama Dios para que se arrepientan?
+
+**San Lucas 5:32**
+No he venido a llamar justos, sino pecadores á arrepentimiento.
+
+**Salmos 49:1,2**
+1. Oíd esto, pueblos todos; Escuchad, habitadores todos del mundo:
+2. Así los plebeyos como los nobles, El rico y el pobre juntamente.
+
+Ex. Enseguida, ¿De qué tenía que arrepentirse el hombre?
+
+**Hechos 8:22**
+Arrepiéntete pues de esta tu maldad, y ruega a Dios, si quizás te será perdonado el pensamiento de tu corazón.
+
+**Ezequiel 18:30**
+Por tanto, yo os juzgaré a cada uno según sus caminos, oh casa de Israel, dice el Señor Jehová. Convertíos, y volveos de todas vuestras iniquidades; y no os será la iniquidad causa de ruina.
+
+Ex. Y ¿cuáles son esas iniquidades?
+
+**Gálatas 5:19,20,21,22**
+19. Y manifiestas son las obras de la carne, que son: adulterio, fornicación, inmundicia, disolución,
+20. Idolatría, hechicerías, enemistades, pleitos, celos, iras, contiendas, disensiones, herejías,
+21. Envidias, homicidios, borracheras, banqueteos, y cosas semejantes á éstas: de las cuales os denuncio, como ya os he anunciado, que los que hacen tales cosas no heredarán el reino de Dios.
+22. Mas el fruto del Espíritu es: caridad, gozo, paz, tolerancia, benignidad, bondad, fe.
+
+Ex. Dios, vió la maldad de los hombres por esta causa cerró las escrituras bajo pecado, para tener misericordia de todos en un tiempo fijado.
+
+**Romanos 11:32**
+Porque Dios encerró a todos en incredulidad, para tener misericordia de todos.
+
+**Hechos 14:16**
+El cual en las edades pasadas ha dejado a todas las gentes andar en sus caminos.
+
+Ex. Ahora, habiendo llegado el tiempo de la restauración del pueblo de Dios, todos los hombres deben arrepentirse.
+
+**Hechos 17:30,31**
+30. Empero Dios, habiendo disimulado los tiempos de esta ignorancia, ahora denuncia a todos los hombres en todos los lugares que se arrepientan:
+31. Por cuanto ha establecido un día, en el cual ha de juzgar al mundo con justicia, por aquel varón al cual determinó; dando fe á todos con haberle levantado de los muertos.
+
+**Hechos 5:31**
+A éste ha Dios ensalzado con su diestra por Príncipe y Salvador, para dar a Israel arrepentimiento y remisión de pecados.
+
+**Jeremías 26:13**
+Y ahora, mejorad vuestros caminos y vuestras obras, y oíd la voz de Jehová vuestro Dios, y arrepentiráse Jehová del mal que ha hablado contra vosotros.
+
+Ex. ¿Para qué tenía que arrepentirse la humanidad y qué beneficio obtiene al arrepentirse? Ahora, Dios anuncia el arrepentimiento a todas las gentes, no quiere que ninguno perezca, sino que todos vengan al conocimiento de la verdad y sean salvos, por eso dice:
+
+**Hechos 3:19**
+Así que, arrepentíos y convertíos, para que sean borrados vuestros pecados; pues que vendrán los tiempos del refrigerio de la presencia del Señor.
+
+**Ezequiel 18:31,32**
+31. Echad de vosotros todas vuestras iniquidades con que habéis prevaricado, y haceos corazón nuevo y espíritu nuevo. ¿Y por qué moriréis, casa de Israel?
+32. Que no quiero la muerte del que muere, dice el Señor Jehová, convertíos pues, y viviréis.
+
+**2 Pedro 3:9**
+El Señor no tarda su promesa, como algunos la tienen por tardanza; sino que es paciente para con nosotros, no queriendo que ninguno perezca, sino que todos procedan al arrepentimiento.
+
+**1 Timoteo 2:3,4**
+3. Porque esto es bueno y agradable delante de Dios nuestro Salvador;
+4. El cual quiere que todos los hombres sean salvos, y que vengan al conocimiento de la verdad.
+
+**Ezequiel 33:11**
+Diles: Vivo yo, dice el Señor Jehová, que no quiero la muerte del impío, sino que se torne el impío de su camino, y que viva. Volveos, volveos de vuestros malos caminos: ¿y por qué moriréis, oh casa de Israel?
+
+Ex. ¿Cómo borrará Dios nuestros pecados?
+
+**Isaías 1:18,19**
+18. Venid luego, dirá Jehová, y estemos a cuenta: si vuestros pecados fueren como la grana, como la nieve serán emblanquecidos: si fueren rojos como el carmesí, vendrán a ser como blanca lana.
+19. Si quisiereis y oyereis, comeréis el bien de la tierra.
+
+Ex. ¿Cómo debemos arrepentirnos?
+
+**Joel 2:12**
+Por eso pues ahora, dice Jehová, convertíos a mí con todo vuestro corazón, con ayuno y lloro y llanto.
+
+**Hechos 26:20**
+Antes anuncié primeramente a los que están en Damasco, y Jerusalem, y por toda la tierra de Judea, y a los gentiles, que se arrepintiesen y se convirtiesen a Dios, haciendo obras dignas de arrepentimiento.
+
+**San Mateo 3:8**
+Haced pues frutos dignos de arrepentimiento.
+
+**Hechos 17:30**
+Empero Dios, habiendo disimulado los tiempos de esta ignorancia, ahora denuncia a todos los hombres en todos los lugares que se arrepientan.
+
+Ex. Al arrepentirnos: ¿Qué camino debemos seguir? Debemos seguir el camino angosto que Cristo vino a enseñarnos a cumplir guardando los mandamientos de su Padre, ésta es la puerta estrecha por donde el hombre tiene que entrar; si quieren ganar la Vida Eterna, deben entrar por esta puerta, porque el camino es el mismo Señor Jesucristo; por eso dice en:
+
+**San Mateo 7:14**
+Porque estrecha es la puerta, y angosto el camino que lleva a la vida, y pocos son los que la hallan.
+
+**San Juan 10:9,2**
+9. Yo soy la puerta: el que por mí entrare, será salvo; y entrará, y saldrá, y hallará pastos.
+2. Mas el que entra por la puerta, el pastor de las ovejas es.
+
+Ex. ¿Los que se arrepienten en qué deben CREER?
+
+**San Marcos 1:15**
+Y diciendo: El tiempo es cumplido, y el reino de Dios está cerca: arrepentíos, y creed al evangelio.
+
+**Efesios 1:13**
+En el cual esperasteis también vosotros en oyendo la palabra de verdad, el evangelio de vuestra salud: en el cual también desde que creísteis, fuisteis sellados con el Espíritu Santo de la promesa.
+
+**1 Juan 2:7**
+Hermanos, no os escribo mandamiento nuevo, sino el mandamiento antiguo que habéis tenido desde el principio: el mandamiento antiguo es la palabra que habéis oído desde el principio.
+
+Ex. Ahora, ¿qué pasará con los que no se arrepintieron?
+
+**Apocalipsis 2:21**
+Y le he dado tiempo para que se arrepienta de la fornicación; y no se ha arrepentido.
+
+**Romanos 2:5**
+Mas por tu dureza, y por tu corazón no arrepentido, atesoras para ti mismo ira para el día de la ira y de la manifestación del justo juicio de Dios.
+
+**San Lucas 13:3**
+No, os digo; antes si no os arrepintiereis, todos pereceréis igualmente.
+
+**Jeremías 18:8**
+Empero si esas gentes se convirtieren de su maldad, de que habré hablado, yo me arrepentiré del mal que había pensado hacerles.
+
+Ex. Y sí no hay arrepentimiento, entonces perecerán en:
+
+**2 Tesalonicenses 1:8,9**
+8. En llama de fuego, para dar el pago á los que no conocieron á Dios, ni obedecen al evangelio de nuestro Señor Jesucristo;
+9. Los cuáles serán castigados de eterna perdición por la presencia del Señor, y por la gloria de su potencia.
+
+Biblia Versión Reina Valera 1909
 `;
 
 const creenciaContent = `
