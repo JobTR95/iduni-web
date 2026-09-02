@@ -30,7 +30,7 @@ export default function ContactoPage() {
                   <MapPin className="w-6 h-6 text-primary" />
                   <div>
                     <h4 className="font-semibold">Dirección</h4>
-                    <p className="text-muted-foreground">Calle 68c Sur Nº48-16, Bogotá, Colombia</p>
+                    <p className="text-muted-foreground">Cra 19c #53-68, Barrio San Carlos, Bogotá, Colombia</p>
                   </div>
                 </div>
                  <div className="flex items-center gap-4">
