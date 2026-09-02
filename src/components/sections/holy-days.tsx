@@ -19,19 +19,19 @@ const newMoons2026 = [
 const solemnFeasts = [
   {
     title: 'Fiesta de la Pascua',
-    dates: 'del 22 de Abril al 29 de Abril de 2024',
+    dates: 'del 18 al 25 de Abril de 2026',
     description: 'Semana de guardar á Jehová nuestro Dios, para la consagración del hombre; haciendo memoria de la salida del pueblo Hebreo de Egipto dando Dios la orden de hacer la Pascua, y como recordatorio de nacimiento y muerte de nuestro señor Jesucristo.',
     verses: 'Levítico 23: 5, Ezequiel 45: 21, San Mateo 26: 17',
   },
   {
     title: 'Fiesta de Pentecostés',
-    dates: 'del 15 de Junio al 22 de Junio de 2024',
+    dates: 'del 20 al 27 de Junio de 2026',
     description: 'En la fiesta de pentecostés se celebran dos cosas muy importantes, la primera como lo fue el derramamiento del espíritu santo en la fiesta una vez el señor Jesús subió al cielo y el pueblo profetizó y hablo en lenguas, y el segundo como agradecimiento por a Dios por los primeros frutos de la cosecha la siega.',
     verses: 'Números 28:26, Levítico 23: 16, Deuteronomio 16: 10, 11 y Hechos 2: 1',
   },
   {
     title: 'Fiesta de las Cabañas',
-    dates: 'del 16 de Octubre al 23 de Octubre 2024',
+    dates: 'del 17 al 24 de Octubre de 2026',
     description: 'En la fiesta de las cabañas, cosecha o tabernáculos se celebra la cosecha de los frutos, la bendición que Jehová Dios dió, además de habitar en cabañas como se hacía en el tiempo antiguo.',
     verses: '2 Crónicas 8:13, Éxodo 23: 16, San Juan 7: 2',
   },
