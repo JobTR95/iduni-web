@@ -510,7 +510,117 @@ Biblia Version Reina Valera 1909
 
 const sabadoDeReposoContent = `
 **Éxodo 16:29**
-Mirad que Jehová os dió el sábado, y por eso os da en el sexto día pan para dos días.
+Mirad que Jehová os dió el sábado, y por eso os da en el sexto día pan para dos días. Estése, pues, cada uno en su estancia, y nadie salga de su lugar en el séptimo día.
+
+Ex. Este es un punto que necesitamos entender, en el "sexto día" nos da "pan para dos días", quiere decir que en el día sexto Dios lo ha permitido para hacer nuestras compras, para que dure "pan para dos días", debemos comprar el viernes para que dure para dos días, sábado y domingo, pero ¿con qué fin?, esa precaución nos da con la finalidad de que en el día del sábado no salgamos a hacer compras de cualquier cosa conveniente, por ejemplo, el pan del día o como le llaman, víveres, y luego, para que dure hasta el día domingo y el día domingo, ya se sabe, muy bien, que tenemos tiempo para hacer las compras para toda la semana o de ahí en adelante o también diario para hacer las compras; entonces, todos los días, quincenales, en fin.
+Entonces, en el día no podemos hacer absolutamente ninguna compra, para que no vayamos a cometer errores, por eso nos dice que el sábado nos lo ha dado para reposar, para quedar desde las seis de la tarde del día viernes, hasta las seis de la tarde del día sábado, veinticuatro horas, entonces, nosotros al creer en Dios, tenemos una señal de confirmación de que Dios existe, que Él vive, ¿no es cierto?, Amén, hermanos; entonces, asimismo, nosotros tenemos que darle a conocer A Dios señal de obediencia, ¿ese punto podríamos darlo a conocer?, ¿alguien podría decirlo?
+
+**Éxodo 31:13,17**
+13. Y tú hablarás á los hijos de Israel, diciendo: Con todo eso vosotros guardaréis mis sábados: porque es señal entre mí y vosotros por vuestras edades, para que sepáis que yo soy Jehová que os santifico.
+17. Señal es para siempre entre mí y los hijos de Israel; porque en seis días hizo Jehová los cielos y la tierra, y en el séptimo día cesó, y reposó.
+
+**Ezequiel 20:12,20**
+12. Y díles también mis sábados que fuesen por señal entre mí y ellos, para que supiesen que yo soy Jehová que los santifico.
+20. Y santificad mis sábados, y sean por señal entre mí y vosotros, para que sepáis que yo soy Jehová vuestro Dios.
+
+Entonces, estamos escuchando claramente, cuál es la "señal" de obediencia, pero ¿en qué sentido podemos darla a conocer?, hay habla claramente, anuncia que es "señal" entre Dios y el hombre y luego dice, que Dios es el que santifica, por eso dice:
+
+**Éxodo 20:8**
+Acordarte has del día del reposo, para santificarlo.
+
+Ex. Ahora, ya nos hemos acordado, muy bien, estamos santificados, por eso el día sábado, ¿por qué dice señal?, por ejemplo, señal de autoridad, ¿y cómo se conoce?, ya se ha hablado varias veces, la señal de la autoridad se conoce y su sello se respeta y si llega un oficio de notificación pero no tiene sello, ¿podemos obedecer?, no hay obediencia, pero si tiene sello, hay que obedecerlo porque es autoridad, así mismo el sello es sagrado, ¿y por qué dice la escritura que no se puede quebrantar el día sábado?, no se puede quebrantar absolutamente, ¿por qué?, ya hemos escuchado, es señal entre Dios y el hombre, ¿por qué?, ahora sí, vamos a darles las razones, ¿cómo podríamos dar a conocer, o digamos hacer conocer a Dios esa señal?, porque creemos en Dios:
+
+**Hebreos 4:3**
+Empero entramos en el reposo los que hemos creído, de la manera que dijo: Como juré en mi ira, No entrarán en mi reposo: aun acabadas las obras desde el principio del mundo.
+
+Ex. Entonces, ya hemos escuchado, que "entramos en el reposo los que hemos creído", quiere decir, que los que creemos en Dios entramos en el reposo para guardarlo, por eso la persona que cree en Dios, muy bien, tiene conocimiento de que Dios vive y al confirmar, tenemos esa señal en nosotros de que Dios vive, esa es la señal en el hombre, tiene que dar señal ante Dios, ¿y cómo?, como creemos en Dios, tenemos que entrar a guardar el sábado; entonces, ya está confirmada la señal, como también decía en Éxodo 20:8; entonces, al acordarnos del día sábado, al creer en Dios y confirmar de que Dios vive, "entramos en el reposo" para guardarlo, entonces hay confirmación de que Dios vive, de que existe, luego al guardar el sábado, damos una señal de que se cree en Dios, por que si no creemos en Dios, no podemos entrar a guardar el sábado y por eso estamos aquí todos los que creemos en Dios, ¿por qué?, porque reconocemos que Dios existe y confirmamos que Dios vive, ¿ven?, y por eso estamos aquí, por eso dice, señal entre Dios y el hombre, está confirmando que Dios vive y que Dios también confirma en nosotros al ver esa obediencia, así estamos con Dios.
+Ahora, volviendo a Éxodo 16:29, en que nuestra condición como creyentes en Dios y nos ha dado el día sábado, y por eso dice, a fin de que no cometamos errores el día sábado, porque el día sábado es muy sagrado, no se puede quebrantar absolutamente, entonces, por eso es que nos da consejos para no cometer errores, trayendo agua, comprando víveres, aunque no sean muchos, basta con que en la mañana salgan algunos a comprar azúcar para el desayuno y en eso continuamos todos, no podemos decir que no; entonces, estamos quebrantando el día sábado, no se puede ni renegar absolutamente, por eso dice, para no cometer errores, ni hablar palabras torpes en el día sábado, no se puede renegar el día sábado, no se pueden pensar malas cosas, las manos deben estar quietas de tocar algo y si tocamos, ¿creen ustedes que tocando no pecamos?, tocando también pecamos, eso ya lo hemos mostrado en varias oportunidades, el pecado que es hablar, tocar, andar, mirar, pensar, por ejemplo, no se puede caminar:
+
+**Isaías 58:13**
+Si retrajeres del sábado tu pie, de hacer tu voluntad en mi día santo, y al sábado llamares delicias, santo, glorioso de Jehová; y lo venerares, no haciendo tus caminos, ni buscando tu voluntad, ni hablando tus palabras.
+
+Ex. Si alguien camina, hay que hacer regresar los pies del hombre que está caminando, no se puede hablar ni en bromas, al hablar bromas no hay cambio de vida y son como los impíos, hay puntos en que cada uno de estos caemos al mal, como son las bromas, con ellas ya hemos caído ya, hemos pecado, por eso la escritura nos aconseja para que nos cuidemos y ninguno de estos puntos halla en nosotros, hablar, pensar, y cuánto más en el día del sábado, porque es muy sagrado; bien, ya hemos dicho, venerarás el día sábado porque es muy santo; entonces, ni las manos deben tocar algo, ni se debe hablar, pero ni andar a nuestra voluntad, esa es la razón de que el sábado es sello santo de Dios, en el don de Dios, eso es el sábado, don de autoridad, por eso el que falsifica la firma es llevado a la cárcel, el que falsifica el sello es llevado a la cárcel, esa es la pena, ¿no es cierto?, entonces, el que falsifica el sello de Dios:
+
+**Jeremías 17:27**
+Mas si no me oyereis para santificar el día del sábado, y para no traer carga ni meterla por las puertas de Jerusalem en día de sábado, yo haré encender fuego en sus puertas, y consumirá los palacios de Jerusalem, y no se apagará.
+
+**Éxodo 31:15**
+Seis días se hará obra, mas el día séptimo es sábado de reposo consagrado á Jehová; cualquiera que hiciere obra el día del sábado, morirá ciertamente.
+
+Ex. Ahora, obramos el día sábado, casi no hay ninguna persona que legalmente detenga sus manos el día sábado, unos más que otros, y así estamos pecando, estamos quebrantando el sello y en este caso, estamos ganando la muerte; ahora, vamos a completar, por eso Dios aconseja, a fin de que no cometamos errores, vamos a aclarar, en el día sexto debemos hacer compras para que dure hasta el día domingo, entramos desde las seis pm del día viernes, a partir de las seis en punto no se puede ni levantar palo, nada, ni renegar, ni hablar mal en absoluto, ya tiene que vivir en paz, vamos a mostrar:
+
+**Éxodo 35:3**
+No encenderéis fuego en todas vuestras moradas en el día del sábado.
+
+**Santiago 3:5,6**
+5. Así también, la lengua es un miembro pequeño, y se gloría de grandes cosas. He aquí, un pequeño fuego cuán grande bosque enciende!
+6. Y la lengua es un fuego, un mundo de maldad. Así la lengua está puesta entre nuestros miembros, la cual contamina todo el cuerpo, é inflama la rueda de la creación, y es inflamada del infierno.
+
+Ex. Ahora, ¿de qué clase de fuego habla? No vamos a decir del fuego de candela, hay un fuego que contamina y destruye, es pequeñito y se goza de grandes cosas, "cuán grande bosque" con grande fuego tenemos en la boca, salen barbaridades y claramente dice, "ningún hombre puede domar la lengua":
+
+**Santiago 3:8**
+Pero ningún hombre puede domar la lengua, que es un mal que no puede ser refrenado; llena de veneno mortal.
+
+Ex. ¿Ven?, es "veneno mortal", por eso decimos en otras palabras violencia; violencia es renegar, la violencia nos manda al infierno, por eso da consejo, las manos no deben tocar las cosas malas, ya obró mal; en ningún punto, las manos nos llevan al peligro; ya un día vamos a aclarar cosa por cosa, cuando seamos entre hombres y mujeres, entre mujeres es pero muy delicado estas aclaraciones; ahora, con el peligro de los ojos todos estamos, por eso en sueños el Señor nos da consejos, nos reprende a veces para apartarnos de estos males, pero nosotros entendemos, sino que no hacemos caso, no respetamos a Dios, que habla a todo el mundo en sueños:
+
+**Job 33:14,15,16**
+14. Sin embargo, en una ó en dos maneras habla Dios; Mas el hombre no entiende.
+15. Por sueño de visión nocturna, Cuando el sueño cae sobre los hombres, Cuando se adormecen sobre el lecho;
+16. Entonces revela al oído de los hombres, Y les señala su consejo.
+
+Ex. "Cuando el sueño", pero sin embargo, nosotros no respetamos, entonces, ya hemos visto, el día sábado, tocar con las manos, mirando, hablando y andando pecamos, también haciendo compras pecamos y por eso Dios nos aconseja en Éxodo 20:8 que nos ha dado el día sábado para santificarnos, para que estemos más cerca de Dios y los que guardamos el día sábado somos santificados, por eso deben darse cuenta cuando una persona lo ha vencido el adversario y le ha dado pereza, entonces dice, bueno, el otro sábado iré, eso conmigo mismo ha pasado, de repente el hombre no recapacita, la bienaventuranza está en guardar el sábado.
+
+**Isaías 56:2,4**
+2. Bienaventurado el hombre que esto hiciere, y el hijo del hombre que esto abrazare: que guarda el sábado de profanarlo, y que guarda su mano de hacer todo mal.
+4. Porque así dijo Jehová á los eunucos que guardaren mis sábados, y escogieren lo que yo quiero, y abrazaren mi pacto.
+
+Ex. Entonces, "Bienaventurado el hombre... que esto abrazare", ¿pero qué cosa?, "que guarda el sábado de profanarlo", bienaventurados los hombres y toda persona que guarde el sábado de profanarlo.
+Y del que no profana dice, un bienaventurado y el "que guarda su mano de hacer todo mal", esto es, hay que guardarnos de hacer obras materiales en el día sábado, si por ejemplo, las hermanas podrían lavar pañales, ya han hecho obra en sábado y si alguien las manda a comprar víveres o cualquier otra cosa en día sábado, ya pecó; al mandar, ya se está sometiendo al pecado o son hijos de él, eso también habla, por ejemplo, hermanas que en ese día quebrantan por hacer cualquier obrita, precisamente ya estamos profanando y eso aquí ya aconseja y recomienda, el que no profanare, sea hombre o sea mujer, serán bienaventurados, Dios recomienda a los que guardan el sábado, y dice, y luego escogiendo lo que Dios quiere, y abrazaren, y ¿qué es lo que Dios quiere que haga el hombre?, que se abrace de su pacto, ¿y cuál es su pacto?, el pacto está clarito, y para que conozcan, aquí está su pacto y para que veamos textualmente.
+
+**Deuteronomio 4:13**
+Y él os anunció su pacto, el cual os mandó poner por obra, las diez palabras; y escribiólas en dos tablas de piedra.
+
+Ex. Estamos escuchando el pacto de Dios son los diez mandamientos, "las diez palabras", por eso dice, si abrazan lo que yo quiero, y ¿qué es lo que quiere el Señor?, ¿de qué quiere que se abracen las gentes que vienen a Dios?, de su pacto, para guardarlo perfectamente, esto es lo que quiere Dios:
+
+**Isaías 58:13**
+Si retrajeres del sábado tu pie, de hacer tu voluntad en mi día santo, y al sábado llamares delicias, santo, glorioso de Jehová; y lo venerares, no haciendo tus caminos, ni buscando tu voluntad, ni hablando tus palabras.
+
+Ex. Quiere decir, que alguien anda buscando algo a su criterio o voluntad, lo que la persona desea está yendo a buscar a voluntad y lo que a ella le interesa, entonces, si la persona reconoce su falta y no hace obra en sábado, regresa su pie de andar el día sábado para no andar más, entonces dice, de hacer su voluntad, precisamente en día santo, entonces, si hacemos regresar, por ejemplo, nosotros estamos yendo a buscar en préstamos dinero, o prestarse algo o a cobrar, bueno, en fin, en día sábado nada podemos hacer, en absoluto nada; entonces, si estamos yendo a cobrar, debemos hacer regresar nuestros pies y no andar más, esto es lo que dice; si ustedes hacen regresar sus pies el día sábado y lo llaman "delicias, santo, glorioso de Jehová" y luego "lo venerares, no haciendo tus caminos", no andando a nuestro criterio.
+
+**Nehemías 10:31**
+Asimismo, que si los pueblos de la tierra trajesen á vender mercaderías y comestibles en día de sábado, nada tomaríamos de ellos en sábado, ni en día santificado; y que dejaríamos el año séptimo, con remisión de toda deuda.
+
+Ex. ¿Dice que los Israelitas pueden hacer compras?, está mal, los Israelitas no pueden comprar, impíos, no saben.
+
+Se sabe muy bien que actualmente se venden mercaderías, víveres, comestibles, y hay negociantes que andan vendiendo de casa en casa, tanto mercaderías, como comestibles, entonces si en día sábado, a algunas de las casas de los Israelitas llegan, no deben comprar nada, y si por ejemplo los hermanos dan estudio, enseñan qué se debe comprar, entonces, ¿qué clase de Israelitas son?, no está bien, eso se llama trastornar, si alguna persona nos viene a vender en el día sábado, en absoluto no debemos comprar, aquí mismo nos ordena:
+
+**Jeremías 17:21,22**
+21. Así ha dicho Jehová: Guardaos por vuestras vidas, y no traigáis carga en el día del sábado, para meter por las puertas de Jerusalem;
+22. Ni saquéis carga de vuestras casas en el día del sábado, ni hagáis obra alguna: mas santificad el día del sábado, como mandé á vuestros padres.
+
+Ex. Debemos de tratar de guardar nuestra vida, ¿y luego qué es lo que debemos hacer? El día sábado no debemos llevar ningún paquete o bulto de víveres a la casa. En el día sábado se compran pan arroz o azúcar, ¿o no?, ¿así es?, ¿o no?, la escritura dice que hay que tratar de cumplir, porque de otra manera estaremos muertos; debemos de santificar el día sábado, como mandó el Señor a nuestros padres, así debemos hacer, Dios lo ordenó antiguamente a nuestros padres y ellos lo hicieron y así debemos hacer también nosotros.
+
+**Lucas 23:56**
+Y vueltas, aparejaron drogas aromáticas y ungüentos; y reposaron el sábado, conforme al mandamiento.
+
+Ex. Estamos escuchando, en los primeros renglones es lo que ya pasó, porque dice, así "como mandé á vuestros padres" y ellos guardaron el sábado, y así ahora, a nosotros nos ordena y gracias al Señor, entonces habría que decirles, absolutamente no permite que hagamos obra en sábado, cualquier obra, solamente una cosa acepta.
+
+**Éxodo 12:16**
+El primer día habrá santa convocación, y asimismo en el séptimo día tendréis una santa convocación: ninguna obra se hará en ellos, excepto solamente que aderecéis lo que cada cual hubiere de comer.
+
+Ex. Entonces, solo hay que aderezar lo que se "hubiere de comer" para preparar su alimento nada más; entonces, estamos escuchando cual es nuestro deber para cumplir el día sábado, y ahora, alguno por ejemplo, también todo lo indica como del trabajo, o sea, como negociante.
+
+**Éxodo 23:12**
+Seis días harás tus negocios, y al séptimo día holgarás, á fin que descanse tu buey y tu asno, y tome refrigerio el hijo de tu sierva, y el extranjero.
+
+Ex. Hasta aquí hemos terminado de mostrarles nuestro deber como buenos Israelitas, que debemos de cumplir o santificar el día sábado; el sábado tiene veinticuatro horas, como dice en:
+
+**Levítico 23:32**
+Sábado de reposo será á vosotros, y afligiréis vuestras almas, comenzando á los nueve del mes en la tarde: de tarde á tarde holgaréis vuestro sábado.
+
+Ex. Este verso habla de dos puntos, primero habla del reposo, que será para nosotros; y luego dice, "y afligiréis vuestras almas", tenemos que entrar nosotros en ayuno, comenzando del día "los nueve del mes" de octubre "en la tarde". Gracias al Señor, hasta aquí les hemos hecho entender.
+
+Biblia Version Reina Valera 1909
 `;
 
 const elArrepentimientoContent = `
