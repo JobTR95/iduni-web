@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 import {
   Dialog,
   DialogContent,
@@ -15,6 +16,7 @@ import {
   BookOpen,
   Handshake,
   ImageOff,
+  Info,
   ChevronLeft,
   ChevronRight,
 } from 'lucide-react';
@@ -113,6 +115,33 @@ export default function Gallery({
           <p className="text-center text-lg text-muted-foreground">
             Aquí compartimos los momentos especiales de nuestra comunidad. Fotografías de nuestros cultos, reuniones, festividades sagradas y actividades comunitarias que reflejan nuestra fe y unidad espiritual.
           </p>
+        </div>
+
+        <div className="mt-6 rounded-lg border border-primary/20 bg-secondary/30 px-5 py-4">
+          <div className="flex items-start gap-3">
+            <Info className="mt-0.5 w-5 h-5 shrink-0 text-primary" aria-hidden="true" />
+            <p className="text-sm leading-relaxed text-muted-foreground break-words">
+              <span className="font-semibold text-foreground">Aviso de imagen:</span>{' '}
+              Las fotos de esta galería fueron tomadas en nuestros cultos y eventos públicos y se usan
+              únicamente con fines informativos, sin fines comerciales ni de lucro. Si no deseas aparecer,
+              escríbenos a{' '}
+              <a
+                href="mailto:iduni.bogotacentral@hotmail.com?subject=Solicitud%20de%20retiro%20de%20imagen%20-%20Galer%C3%ADa"
+                className="font-medium text-primary underline underline-offset-4 hover:text-primary/80"
+              >
+                iduni.bogotacentral@hotmail.com
+              </a>{' '}
+              y difuminaremos o retiraremos tu foto en un plazo máximo de 72 horas hábiles. Tratamos tu
+              imagen conforme a la Ley 1581 de 2012.{' '}
+              <Link
+                href="/politica-de-datos"
+                className="font-medium text-primary underline underline-offset-4 hover:text-primary/80"
+              >
+                Ver política completa
+              </Link>
+              .
+            </p>
+          </div>
         </div>
 
         <div className="mt-12 space-y-14">

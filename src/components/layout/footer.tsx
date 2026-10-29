@@ -42,8 +42,11 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <div className="pt-8 mt-12 text-sm text-center border-t text-muted-foreground">
+        <div className="flex flex-col items-center gap-2 pt-8 mt-12 text-sm text-center border-t text-muted-foreground sm:flex-row sm:justify-between sm:text-left">
           <p>&copy; {new Date().getFullYear()} IDUNI. Todos los derechos reservados.</p>
+          <Link href="/politica-de-datos" className="transition-colors hover:text-primary">
+            Política de Tratamiento de Datos
+          </Link>
         </div>
       </div>
     </footer>

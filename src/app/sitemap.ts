@@ -13,6 +13,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/galeria',
     '/santuarios',
     '/contacto',
+    '/politica-de-datos',
   ];
 
   return routes.map((route) => ({

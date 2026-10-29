@@ -65,6 +65,18 @@ export default function ContactoPage() {
                   </div>
                 </Link>
               </div>
+              <div className="pt-6 text-center border-t md:col-span-2">
+                <p className="text-sm text-muted-foreground">
+                  Para solicitudes relacionadas con tus datos personales o tu imagen, consulta nuestra{' '}
+                  <Link
+                    href="/politica-de-datos"
+                    className="font-medium text-primary underline underline-offset-4 hover:text-primary/80"
+                  >
+                    Política de Tratamiento de Datos
+                  </Link>
+                  .
+                </p>
+              </div>
             </CardContent>
           </Card>
         </div>
