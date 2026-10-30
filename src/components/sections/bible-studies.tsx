@@ -1033,9 +1033,9 @@ const bibleStudies = [
         <div className="container max-w-screen-lg mx-auto px-4 md:px-0">
           <div className="mb-12 text-center">
             <BookOpen className="w-12 h-12 mx-auto text-primary" />
-            <h2 className="mt-4 text-3xl font-bold md:text-4xl font-headline">
+            <h1 className="mt-4 text-3xl font-bold md:text-4xl font-headline">
               Estudios Bíblicos
-            </h2>
+            </h1>
             <p className="max-w-xl mx-auto mt-4 text-lg text-foreground/80 font-body">
               Profundiza en la palabra de Dios a través de estos estudios.
             </p>

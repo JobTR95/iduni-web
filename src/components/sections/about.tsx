@@ -24,7 +24,7 @@ export default function About() {
           <div className="w-full">
             <div className="flex items-center gap-3 mb-4 text-primary">
               <Users className="w-8 h-8" />
-              <h2 className="text-3xl font-headline">¿Quiénes Somos?</h2>
+              <h1 className="text-3xl font-headline">¿Quiénes Somos?</h1>
             </div>
             <p className="mb-6 text-lg leading-relaxed text-foreground/80 font-body">
               Somos la iglesia de la doctrina universal de Israel IDUNI. Nuestra responsabilidad como conocedores del evangelio de Nuestro Señor Jesucristo es anunciar y difundir los Diez Mandamientos de la Ley de Dios, para entrar a la moralización y poder alcanzar las promesas de Dios y a su vez que la humanidad llegue a un estado de unidad, armonía, equidad y paz.
@@ -32,10 +32,10 @@ export default function About() {
             <Accordion type="single" collapsible className="w-full" defaultValue="item-1">
               <AccordionItem value="item-1">
                 <AccordionTrigger>
-                  <h3 className="flex items-center text-xl font-headline text-primary/90">
+                  <h2 className="flex items-center text-xl font-headline text-primary/90">
                     <BookOpen className="w-5 h-5 mr-3" />
                     Nuestra Historia
-                  </h3>
+                  </h2>
                 </AccordionTrigger>
                 <AccordionContent>
                   <div className="pt-4 space-y-4 text-base leading-relaxed font-body text-foreground/70">
@@ -59,10 +59,10 @@ export default function About() {
               </AccordionItem>
                <AccordionItem value="item-2">
                 <AccordionTrigger>
-                  <h3 className="flex items-center text-xl font-headline text-primary/90">
+                  <h2 className="flex items-center text-xl font-headline text-primary/90">
                     <Target className="w-5 h-5 mr-3" />
                     Misión
-                  </h3>
+                  </h2>
                 </AccordionTrigger>
                 <AccordionContent>
                   <div className="pt-4 space-y-4 text-base leading-relaxed font-body text-foreground/70">
@@ -74,10 +74,10 @@ export default function About() {
               </AccordionItem>
               <AccordionItem value="item-3">
                 <AccordionTrigger>
-                  <h3 className="flex items-center text-xl font-headline text-primary/90">
+                  <h2 className="flex items-center text-xl font-headline text-primary/90">
                     <Eye className="w-5 h-5 mr-3" />
                     Visión
-                  </h3>
+                  </h2>
                 </AccordionTrigger>
                 <AccordionContent>
                   <div className="pt-4 space-y-4 text-base leading-relaxed font-body text-foreground/70">
@@ -89,10 +89,10 @@ export default function About() {
               </AccordionItem>
               <AccordionItem value="item-4">
                 <AccordionTrigger>
-                  <h3 className="flex items-center text-xl font-headline text-primary/90">
+                  <h2 className="flex items-center text-xl font-headline text-primary/90">
                     <Gem className="w-5 h-5 mr-3" />
                     Valores
-                  </h3>
+                  </h2>
                 </AccordionTrigger>
                 <AccordionContent>
                   <div className="pt-4 space-y-4 text-base leading-relaxed font-body text-foreground/70">

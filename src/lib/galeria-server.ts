@@ -39,14 +39,11 @@ const CATEGORIAS: Omit<CategoriaGaleria, 'fotos'>[] = [
 
 const ALT_POR_ARCHIVO: Record<string, string> = {
   'fiestas-ceremonias/avivar-fuego.jpg': 'Hermano avivando el fuego ceremonial',
-  'fiestas-ceremonias/cabra.jpg': 'Cabra en el campo durante una actividad de la iglesia',
   'fiestas-ceremonias/ceremonia-fogata-1.jpg':
     'Ceremonia con fogata y hermanos con vestimenta ceremonial',
   'fiestas-ceremonias/fogata-1.jpg': 'Fogata ceremonial',
   'fiestas-ceremonias/fogata-atardecer.jpg': 'Fogata al atardecer',
   'fiestas-ceremonias/fogata-noche.jpg': 'Fogata encendida durante la ceremonia',
-  'fiestas-ceremonias/grupo-cabra.jpg':
-    'Grupo de hermanos con vestimenta ceremonial y una cabra',
   'fiestas-ceremonias/preparar-fogata.jpg': 'Hermano preparando la fogata ceremonial',
   'bautismos-oracion/bautismo-rio.jpg': 'Bautismo en el río',
   'bautismos-oracion/oracion-rio.jpg': 'Hermano orando en el río durante una ceremonia',

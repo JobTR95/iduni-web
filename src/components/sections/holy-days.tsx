@@ -61,9 +61,9 @@ export default function HolyDays() {
       <div className="container max-w-screen-lg mx-auto">
         <div className="mb-12 text-center">
           <CalendarDays className="w-12 h-12 mx-auto text-primary" />
-          <h2 className="mt-4 text-3xl font-bold md:text-4xl font-headline">
+          <h1 className="mt-4 text-3xl font-bold md:text-4xl font-headline">
             Fiestas, Lunas Nuevas y Días Consagrados
-          </h2>
+          </h1>
           <p className="max-w-2xl mx-auto mt-4 text-lg text-foreground/80 font-body">
             Únete a nosotros para celebrar los tiempos señalados por Dios.
           </p>
@@ -73,9 +73,9 @@ export default function HolyDays() {
             {/* New Moons Card */}
             <Card className="shadow-lg">
                 <CardHeader>
-                    <CardTitle className="flex items-center justify-center gap-2 text-xl text-center font-headline text-primary">
+                    <h2 className="flex items-center justify-center gap-2 text-xl text-center font-headline text-primary">
                         <Moon className="w-6 h-6"/> Lunas Nuevas 2026
-                    </CardTitle>
+                    </h2>
                 </CardHeader>
                 <CardContent>
                     <ul className="grid grid-cols-2 gap-2 text-sm text-center text-muted-foreground font-body">
@@ -94,9 +94,9 @@ export default function HolyDays() {
             {/* Other Holy Days Card */}
             <Card className="shadow-lg">
                 <CardHeader>
-                    <CardTitle className="text-xl text-center font-headline text-primary">
+                    <h2 className="text-xl text-center font-headline text-primary">
                         Otras Fechas Solemnes
-                    </CardTitle>
+                    </h2>
                 </CardHeader>
                 <CardContent className="space-y-6">
                     {otherHolyDays.map(day => (

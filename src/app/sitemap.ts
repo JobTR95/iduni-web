@@ -1,25 +1,33 @@
-import type {MetadataRoute} from 'next';
+import type { MetadataRoute } from 'next';
+import { leerGaleria } from '@/lib/galeria-server';
+import { urlAbsoluta } from '@/lib/seo';
 
-const baseUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://iduni-web.vercel.app';
+const rutas = [
+  { ruta: '/', prioridad: 1, frecuencia: 'weekly' as const },
+  { ruta: '/quienes-somos', prioridad: 0.9, frecuencia: 'monthly' as const },
+  { ruta: '/fundador', prioridad: 0.8, frecuencia: 'monthly' as const },
+  { ruta: '/mandamientos', prioridad: 0.8, frecuencia: 'monthly' as const },
+  { ruta: '/bible-study', prioridad: 0.8, frecuencia: 'monthly' as const },
+  { ruta: '/fiestas', prioridad: 0.8, frecuencia: 'monthly' as const },
+  { ruta: '/galeria', prioridad: 0.9, frecuencia: 'weekly' as const },
+  { ruta: '/santuarios', prioridad: 0.9, frecuencia: 'monthly' as const },
+  { ruta: '/contacto', prioridad: 0.8, frecuencia: 'yearly' as const },
+  { ruta: '/politica-de-datos', prioridad: 0.3, frecuencia: 'yearly' as const },
+];
 
-export default function sitemap(): MetadataRoute.Sitemap {
-  const routes = [
-    '',
-    '/quienes-somos',
-    '/fundador',
-    '/mandamientos',
-    '/bible-study',
-    '/fiestas',
-    '/galeria',
-    '/santuarios',
-    '/contacto',
-    '/politica-de-datos',
-  ];
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
+  const categorias = await leerGaleria();
+  const imagenesGaleria = categorias.flatMap((categoria) =>
+    categoria.fotos.map((foto) => urlAbsoluta(foto.src))
+  );
 
-  return routes.map((route) => ({
-    url: `${baseUrl}${route}`,
-    lastModified: new Date(),
-    changeFrequency: route === '' ? 'weekly' : 'monthly',
-    priority: route === '' ? 1 : 0.8,
+  const ultimaActualizacion = new Date();
+
+  return rutas.map(({ ruta, prioridad, frecuencia }) => ({
+    url: urlAbsoluta(ruta),
+    lastModified: ultimaActualizacion,
+    changeFrequency: frecuencia,
+    priority: prioridad,
+    ...(ruta === '/galeria' ? { images: imagenesGaleria } : {}),
   }));
 }

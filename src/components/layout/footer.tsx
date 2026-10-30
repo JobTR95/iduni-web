@@ -12,6 +12,26 @@ export default function Footer() {
             <p className="max-w-md mx-auto mt-2 text-sm text-muted-foreground md:mx-0">
               Una comunidad de fe, esperanza y amor. Te invitamos a ser parte de nuestra familia y a conocer la palabra de Dios.
             </p>
+            <nav
+              aria-label="Enlaces del sitio"
+              className="flex flex-wrap justify-center gap-x-4 gap-y-2 mt-5 text-sm text-muted-foreground md:justify-start"
+            >
+              <Link href="/quienes-somos" className="transition-colors hover:text-primary">
+                Quiénes somos
+              </Link>
+              <Link href="/fundador" className="transition-colors hover:text-primary">
+                Fundador
+              </Link>
+              <Link href="/fiestas" className="transition-colors hover:text-primary">
+                Fiestas
+              </Link>
+              <Link href="/galeria" className="transition-colors hover:text-primary">
+                Galería
+              </Link>
+              <Link href="/contacto" className="transition-colors hover:text-primary">
+                Contacto
+              </Link>
+            </nav>
           </div>
           <div className="flex flex-col">
             <h3 className="mb-4 text-lg font-bold font-headline">Contacto</h3>

@@ -1,69 +1,85 @@
-import type {Metadata} from 'next';
+import type { Metadata, Viewport } from 'next';
+import { Inter, Lora } from 'next/font/google';
 import './globals.css';
-import { Toaster } from "@/components/ui/toaster"
+import { Toaster } from '@/components/ui/toaster';
+import {
+  SITE_DESCRIPTION,
+  SITE_NAME,
+  SITE_OG_IMAGE,
+  SITE_URL,
+  churchSchema,
+  websiteSchema,
+} from '@/lib/seo';
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://iduni-web.vercel.app';
+const inter = Inter({
+  subsets: ['latin'],
+  variable: '--font-inter',
+  display: 'swap',
+});
+
+const lora = Lora({
+  subsets: ['latin'],
+  variable: '--font-lora',
+  display: 'swap',
+});
+
 const googleVerification = process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION;
 
 export const metadata: Metadata = {
-  metadataBase: new URL(siteUrl),
+  metadataBase: new URL(SITE_URL),
   title: {
-    default: 'IDUNI | Iglesia de la Doctrina Universal de Israel',
-    template: '%s | IDUNI',
+    default: 'IDUNI | Iglesia de la Doctrina Universal de Israel en Bogotá',
+    template: `%s | ${SITE_NAME}`,
   },
-  description:
-    'Iglesia de la Doctrina Universal de Israel (IDUNI). Comunidad de fe, esperanza y amor. Conoce nuestra historia, los Diez Mandamientos, estudios bíblicos, fiestas sagradas y santuarios.',
+  description: SITE_DESCRIPTION,
+  applicationName: SITE_NAME,
+  authors: [{ name: SITE_NAME, url: SITE_URL }],
+  creator: SITE_NAME,
+  publisher: SITE_NAME,
+  category: 'religion',
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
   robots: {
     index: true,
     follow: true,
-    googleBot: { index: true, follow: true },
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+      'max-video-preview': -1,
+    },
   },
   openGraph: {
     type: 'website',
-    url: siteUrl,
-    siteName: 'IDUNI',
-    title: 'IDUNI | Iglesia de la Doctrina Universal de Israel',
-    description:
-      'Iglesia de la Doctrina Universal de Israel. Comunidad de fe, esperanza y amor.',
+    url: SITE_URL,
+    siteName: SITE_NAME,
+    title: 'IDUNI | Iglesia de la Doctrina Universal de Israel en Bogotá',
+    description: SITE_DESCRIPTION,
     locale: 'es_CO',
-    images: [{ url: `${siteUrl}/og.png`, width: 1200, height: 630, alt: 'IDUNI — Iglesia de la Doctrina Universal de Israel' }],
+    images: [SITE_OG_IMAGE],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'IDUNI | Iglesia de la Doctrina Universal de Israel',
-    description:
-      'Iglesia de la Doctrina Universal de Israel. Comunidad de fe, esperanza y amor.',
-    images: [`${siteUrl}/og.png`],
+    title: 'IDUNI | Iglesia de la Doctrina Universal de Israel en Bogotá',
+    description: SITE_DESCRIPTION,
+    images: [{ url: SITE_OG_IMAGE.url, alt: SITE_OG_IMAGE.alt }],
   },
   ...(googleVerification ? { verification: { google: googleVerification } } : {}),
 };
 
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  themeColor: '#2463eb',
+};
+
 const structuredData = {
   '@context': 'https://schema.org',
-  '@type': 'Church',
-  name: 'Iglesia de la Doctrina Universal de Israel',
-  alternateName: 'IDUNI',
-  url: siteUrl,
-  logo: `${siteUrl}/icon.png`,
-  image: `${siteUrl}/og.png`,
-  description:
-    'Iglesia de la Doctrina Universal de Israel (IDUNI). Comunidad de fe, esperanza y amor. Cultos, estudios bíblicos, fiestas sagradas y santuarios.',
-  address: {
-    '@type': 'PostalAddress',
-    streetAddress: 'Cra 19c #53-68, Barrio San Carlos',
-    addressLocality: 'Bogotá',
-    addressCountry: 'CO',
-  },
-  contactPoint: {
-    '@type': 'ContactPoint',
-    email: 'iduni.bogotacentral@hotmail.com',
-    telephone: '+57 312 123 4567',
-    contactType: 'customer service',
-  },
-  sameAs: [
-    'https://www.instagram.com/idunioficial/',
-    'https://m.facebook.com/IDUNI-Oficial-106958015090853/',
-  ],
+  '@graph': [websiteSchema, churchSchema],
 };
 
 export default function RootLayout({
@@ -72,12 +88,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="es">
-      <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Inter:wght@400;700&display=swap" rel="stylesheet" />
-      </head>
+    <html lang="es-CO" className={`${inter.variable} ${lora.variable}`}>
       <body className="font-body antialiased">
         <script
           type="application/ld+json"

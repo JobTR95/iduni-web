@@ -1,17 +1,35 @@
 import Header from '@/components/layout/header';
 import Footer from '@/components/layout/footer';
 import BibleStudies from '@/components/sections/bible-studies';
-import type {Metadata} from 'next';
+import JsonLd from '@/components/seo/json-ld';
+import { crearMetadata, crearPaginaJsonLd } from '@/lib/seo';
+import type { Metadata } from 'next';
 
-export const metadata: Metadata = {
-  title: 'Estudios Bíblicos',
-  description:
-    'Profundiza en la palabra de Dios a través de nuestros estudios bíblicos.',
-};
+const titulo = 'Estudios Bíblicos';
+const descripcion =
+  'Profundiza en la palabra de Dios con los estudios bíblicos de IDUNI: doctrina, profecías, creencias y el juicio de Dios.';
+
+export const metadata: Metadata = crearMetadata({
+  titulo,
+  descripcion,
+  ruta: '/bible-study',
+});
+
+const jsonLd = crearPaginaJsonLd({
+  titulo,
+  descripcion,
+  ruta: '/bible-study',
+  about: {
+    '@type': 'Thing',
+    name: 'Estudios bíblicos',
+    description: 'Enseñanzas y estudios de la palabra de Dios en IDUNI.',
+  },
+});
 
 export default function BibleStudyPage() {
   return (
     <div className="flex flex-col min-h-screen bg-background">
+      <JsonLd data={jsonLd} />
       <Header />
       <main className="flex-1">
         <BibleStudies />

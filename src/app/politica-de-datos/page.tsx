@@ -1,14 +1,32 @@
 import Header from '@/components/layout/header';
 import Footer from '@/components/layout/footer';
+import JsonLd from '@/components/seo/json-ld';
 import { ArrowLeft, Mail, MapPin, Phone } from 'lucide-react';
 import Link from 'next/link';
+import { crearMetadata, crearPaginaJsonLd } from '@/lib/seo';
 import type { Metadata } from 'next';
 
-export const metadata: Metadata = {
-  title: 'Política de Uso de Imagen y Tratamiento de Datos',
-  description:
-    'Política de uso de imagen y tratamiento de datos personales de la Iglesia de la Doctrina Universal de Israel (IDUNI), conforme a la Ley 1581 de 2012 y el Decreto 1377 de 2013.',
-};
+const titulo = 'Política de Uso de Imagen y Tratamiento de Datos';
+const descripcion =
+  'Política de uso de imagen y tratamiento de datos personales de la Iglesia de la Doctrina Universal de Israel (IDUNI), conforme a la Ley 1581 de 2012.';
+
+export const metadata: Metadata = crearMetadata({
+  titulo,
+  descripcion,
+  ruta: '/politica-de-datos',
+});
+
+const jsonLd = crearPaginaJsonLd({
+  titulo,
+  descripcion,
+  ruta: '/politica-de-datos',
+  about: {
+    '@type': 'Thing',
+    name: 'Protección de datos personales y uso de imagen',
+    description:
+      'Derechos de consulta, reclamo, supresión y anonimización de datos e imágenes.',
+  },
+});
 
 const contacto = {
   correo: 'iduni.bogotacentral@hotmail.com',
@@ -19,6 +37,7 @@ const contacto = {
 export default function PoliticaDeDatosPage() {
   return (
     <div className="flex flex-col min-h-screen bg-background">
+      <JsonLd data={jsonLd} />
       <Header />
       <main className="flex-1 py-16 md:py-24">
         <div className="container max-w-3xl mx-auto px-4">

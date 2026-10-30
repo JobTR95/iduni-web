@@ -105,9 +105,9 @@ export default function TenCommandments() {
       <div className="container max-w-screen-lg px-4 mx-auto md:px-0">
         <div className="mb-12 text-center">
           <ScrollText className="w-16 h-16 mx-auto text-primary" />
-          <h2 className="mt-4 text-4xl font-bold md:text-5xl font-headline">
+          <h1 className="mt-4 text-4xl font-bold md:text-5xl font-headline">
             Diez Mandamientos
-          </h2>
+          </h1>
           <p className="max-w-xl mx-auto mt-4 text-lg font-body text-foreground/80">
             La Ley Real
           </p>
@@ -143,7 +143,7 @@ export default function TenCommandments() {
         </Card>
 
         <div className="mb-12">
-            <h3 className="mb-8 text-3xl font-bold text-center font-headline text-primary">Los Diez Mandamientos</h3>
+            <h2 className="mb-8 text-3xl font-bold text-center font-headline text-primary">Los Diez Mandamientos</h2>
             <Accordion type="single" collapsible className="w-full space-y-4">
               {commandments.map((commandment, index) => (
                   <AccordionItem value={`item-${index}`} key={index} className="border-0">
@@ -167,9 +167,9 @@ export default function TenCommandments() {
 
         <Card className="shadow-lg">
           <div className="p-6 md:p-8">
-            <h3 className="mb-4 text-2xl text-center font-headline text-primary">
+            <h2 className="mb-4 text-2xl text-center font-headline text-primary">
               Eslabonamiento
-            </h3>
+            </h2>
             <Accordion type="single" collapsible className="w-full">
               {eslabonamiento.map((item, index) => (
                 <AccordionItem value={`eslabonamiento-${index}`} key={index}>

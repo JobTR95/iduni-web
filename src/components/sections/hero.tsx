@@ -12,16 +12,18 @@ export default function Hero() {
           loop
           muted
           playsInline
+          aria-hidden="true"
+          tabIndex={-1}
         />
       </div>
       <div className="absolute inset-0 bg-black/60" />
       <div className="relative z-10 flex flex-col items-center justify-center h-full px-4 text-center">
         <h1 className="text-5xl font-bold sm:text-6xl md:text-8xl lg:text-9xl font-headline text-shadow-lg">
           IDUNI
-        </h1>
-        <p className="max-w-3xl mt-6 text-lg md:text-xl text-shadow">
+          <span className="block max-w-3xl mx-auto mt-6 text-lg font-normal md:text-xl text-shadow">
             Iglesia De La Doctrina Universal de Israel
-        </p>
+          </span>
+        </h1>
         <div className="mt-10">
            <Button asChild size="default" className="text-base">
             <Link href="/quienes-somos">Conócenos</Link>

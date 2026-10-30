@@ -1,6 +1,6 @@
 'use client';
 
-import { Card, CardHeader, CardTitle } from '@/components/ui/card';
+import { Card, CardHeader } from '@/components/ui/card';
 import Image from 'next/image';
 import {
   Accordion,
@@ -26,12 +26,12 @@ export default function Founder() {
           <div className="w-full space-y-4 text-foreground/80">
             <Card className="border-none shadow-none bg-transparent">
               <CardHeader className="p-0 text-center md:text-left">
-                <CardTitle className="text-3xl font-headline text-primary">
+                <h1 className="text-3xl font-headline text-primary">
                   Nuestro Fundador
-                </CardTitle>
-                <h3 className="pt-2 text-2xl font-bold font-headline text-foreground">
+                </h1>
+                <p className="pt-2 text-2xl font-bold font-headline text-foreground">
                   Maestro Ezequiel Ataucusi Gamonal
-                </h3>
+                </p>
               </CardHeader>
             </Card>
 

@@ -1,6 +1,5 @@
 'use client';
 
-import Image from 'next/image';
 import Link from 'next/link';
 import { Card, CardContent, CardHeader } from '@/components/ui/card';
 import {
@@ -12,16 +11,10 @@ import {
 } from '@/components/ui/dialog';
 import { Button } from '@/components/ui/button';
 import { Landmark, Map, Navigation } from 'lucide-react';
-
-export interface Sanctuary {
-  name: string;
-  address?: string;
-  imageUrl: string;
-  mapsUrl?: string;
-}
+import type { Sede } from '@/lib/santuarios';
 
 interface SanctuaryCardProps {
-  sanctuary: Sanctuary;
+  sanctuary: Sede;
 }
 
 export function SanctuaryCard({ sanctuary }: SanctuaryCardProps) {
@@ -39,18 +32,11 @@ export function SanctuaryCard({ sanctuary }: SanctuaryCardProps) {
       </DialogTrigger>
       <DialogContent className="sm:max-w-[425px] md:max-w-lg">
         <DialogHeader>
-          <DialogTitle className="text-2xl font-headline text-primary">{sanctuary.name}</DialogTitle>
+          <DialogTitle className="text-2xl font-headline text-primary">
+            {sanctuary.name}
+          </DialogTitle>
         </DialogHeader>
         <div className="grid gap-4 py-4">
-          <div className="relative w-full overflow-hidden rounded-lg aspect-video">
-            <Image
-              src={sanctuary.imageUrl}
-              alt={`Foto de ${sanctuary.name}`}
-              fill
-              className="object-cover"
-              data-ai-hint="church building"
-            />
-          </div>
           {sanctuary.address ? (
             <div className="flex items-start gap-4">
               <Map className="w-6 h-6 mt-1 text-primary shrink-0" />

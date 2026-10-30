@@ -101,9 +101,9 @@ export default function Gallery({ categorias }: { categorias: CategoriaGaleria[]
     <section id="gallery" className="py-16 md:py-24 bg-background">
       <div className="container max-w-screen-lg mx-auto">
         <div className="mb-12 text-center">
-          <h2 className="text-4xl font-bold md:text-5xl font-headline text-primary">
+          <h1 className="text-4xl font-bold md:text-5xl font-headline text-primary">
             Galería de Fotografías
-          </h2>
+          </h1>
           <div className="relative flex justify-center mt-4">
             <div className="w-24 h-1 bg-primary rounded-full"></div>
           </div>
@@ -157,12 +157,12 @@ export default function Gallery({ categorias }: { categorias: CategoriaGaleria[]
                       <Icono className="h-5 w-5" aria-hidden="true" />
                     </span>
                     <div className="min-w-0">
-                      <h3
+                      <h2
                         id={tituloId}
                         className="font-headline text-2xl font-bold text-primary md:text-3xl"
                       >
                         {categoria.titulo}
-                      </h3>
+                      </h2>
                       <p className="mt-1 text-sm text-muted-foreground">
                         {categoria.descripcion}
                       </p>
