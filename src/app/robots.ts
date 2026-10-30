@@ -1,6 +1,6 @@
 import type {MetadataRoute} from 'next';
 
-const baseUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://iduni.org';
+const baseUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://iduni-web.vercel.app';
 
 export default function robots(): MetadataRoute.Robots {
   return {
