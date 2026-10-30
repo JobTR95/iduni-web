@@ -22,11 +22,11 @@ export default function Footer() {
               </div>
               <div className="flex items-center justify-center gap-3 md:justify-start">
                 <Mail className="w-4 h-4 text-primary" />
-                <a href="mailto:info@iduni.org" className="hover:text-primary">info@iduni.org</a>
+                <a href="mailto:iduni.bogotacentral@hotmail.com" className="break-all hover:text-primary">iduni.bogotacentral@hotmail.com</a>
               </div>
               <div className="flex items-center justify-center gap-3 md:justify-start">
                 <Phone className="w-4 h-4 text-primary" />
-                <span>(+57) 312 123 4567</span>
+                <span>+57 312 123 4567</span>
               </div>
             </div>
           </div>

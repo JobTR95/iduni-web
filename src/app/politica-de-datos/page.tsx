@@ -120,7 +120,7 @@ export default function PoliticaDeDatosPage() {
                 </div>
               </div>
               <p className="mt-3 text-sm text-muted-foreground">
-                Atenderemos su solicitud en un plazo máximo de 72 horas hábiles.
+                Atenderemos su solicitud en los plazos indicados en el numeral 6.
               </p>
             </section>
 
@@ -137,7 +137,61 @@ export default function PoliticaDeDatosPage() {
 
             <section>
               <h2 className="text-xl font-bold font-headline text-primary">
-                6. Vigencia y modificaciones
+                6. Procedimiento para consultas y reclamos
+              </h2>
+              <p className="mt-3 text-muted-foreground">
+                Para ejercer sus derechos, envíe su solicitud al correo{' '}
+                <a
+                  href={`mailto:${contacto.correo}?subject=Solicitud%20de%20datos%20personales`}
+                  className="font-medium text-primary underline underline-offset-4 hover:text-primary/80"
+                >
+                  {contacto.correo}
+                </a>{' '}
+                o al celular {contacto.celular}, indicando:
+              </p>
+              <ul className="mt-3 list-disc space-y-2 pl-6 text-muted-foreground">
+                <li>Nombre completo y número de documento de identidad.</li>
+                <li>Datos de contacto (correo electrónico y/o teléfono).</li>
+                <li>Descripción clara de la solicitud.</li>
+                <li>
+                  Si aplica, enlace o descripción de la publicación donde aparece su imagen.
+                </li>
+              </ul>
+              <p className="mt-3 text-muted-foreground">
+                Nuestro compromiso operativo es responder en un plazo máximo de 72 horas hábiles. Los
+                plazos legales máximos son de 10 días hábiles para consultas y 15 días hábiles para
+                reclamos, prorrogables conforme a la Ley 1581 de 2012.
+              </p>
+            </section>
+
+            <section>
+              <h2 className="text-xl font-bold font-headline text-primary">
+                7. Medidas de seguridad
+              </h2>
+              <p className="mt-3 text-muted-foreground">
+                IDUNI adopta medidas administrativas, técnicas y físicas razonables para proteger las
+                imágenes y los datos personales, entre ellas el acceso restringido al personal autorizado,
+                el almacenamiento en cuentas oficiales y la eliminación o anonimización de las imágenes
+                cuando se solicite. No compartimos imágenes con terceros para fines comerciales.
+              </p>
+            </section>
+
+            <section>
+              <h2 className="text-xl font-bold font-headline text-primary">
+                8. Transferencia internacional de datos
+              </h2>
+              <p className="mt-3 text-muted-foreground">
+                Al publicar imágenes en plataformas como Facebook, Instagram o YouTube, estas pueden
+                almacenar y procesar la información en servidores ubicados fuera de Colombia. Al autorizar
+                la publicación, usted es informado de esta circunstancia. IDUNI no vende ni cede imágenes a
+                terceros; el uso de estas plataformas se limita a las finalidades descritas en esta
+                política.
+              </p>
+            </section>
+
+            <section>
+              <h2 className="text-xl font-bold font-headline text-primary">
+                9. Vigencia y modificaciones
               </h2>
               <p className="mt-3 text-muted-foreground">
                 Esta política rige desde su publicación y podrá ser actualizada. Cualquier cambio será
@@ -148,7 +202,7 @@ export default function PoliticaDeDatosPage() {
 
             <section>
               <h2 className="text-xl font-bold font-headline text-primary">
-                7. Autoridad de control
+                10. Autoridad de control
               </h2>
               <p className="mt-3 text-muted-foreground">
                 Si considera que sus derechos no han sido atendidos, puede acudir a la Superintendencia de

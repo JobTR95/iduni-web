@@ -56,7 +56,7 @@ const structuredData = {
   },
   contactPoint: {
     '@type': 'ContactPoint',
-    email: 'info@iduni.org',
+    email: 'iduni.bogotacentral@hotmail.com',
     telephone: '+57 312 123 4567',
     contactType: 'customer service',
   },

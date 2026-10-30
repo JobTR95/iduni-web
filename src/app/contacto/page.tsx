@@ -37,14 +37,19 @@ export default function ContactoPage() {
                   <Mail className="w-6 h-6 text-primary" />
                   <div>
                     <h4 className="font-semibold">Email</h4>
-                    <p className="text-muted-foreground">info@iduni.org</p>
+                    <a
+                      href="mailto:iduni.bogotacentral@hotmail.com"
+                      className="text-muted-foreground transition-colors hover:text-primary break-all"
+                    >
+                      iduni.bogotacentral@hotmail.com
+                    </a>
                   </div>
                 </div>
                  <div className="flex items-center gap-4">
                   <Phone className="w-6 h-6 text-primary" />
                   <div>
                     <h4 className="font-semibold">Teléfono</h4>
-                    <p className="text-muted-foreground">(+57) 312 123 4567</p>
+                    <p className="text-muted-foreground">+57 312 123 4567</p>
                   </div>
                 </div>
               </div>
