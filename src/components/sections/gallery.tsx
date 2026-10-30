@@ -1,103 +1,81 @@
 'use client';
 
-import { useState } from 'react';
+import { useEffect, useRef, useState, type TouchEvent } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import {
   Dialog,
   DialogContent,
+  DialogDescription,
   DialogHeader,
   DialogTitle,
 } from '@/components/ui/dialog';
 import {
-  Camera,
-  Users,
-  PartyPopper,
-  BookOpen,
-  Handshake,
   ImageOff,
   Info,
   ChevronLeft,
   ChevronRight,
 } from 'lucide-react';
+import type { FotoGaleria } from '@/lib/galeria-server';
 
-const galleryCategories = [
-  {
-    title: 'Cultos y Reuniones',
-    slug: 'cultos-reuniones',
-    icon: <Camera className="w-8 h-8 text-primary" />,
-  },
-  {
-    title: 'Comunidad y Hermandad',
-    slug: 'comunidad-hermandad',
-    icon: <Users className="w-8 h-8 text-primary" />,
-  },
-  {
-    title: 'Festividades Sagradas',
-    slug: 'festividades-sagradas',
-    icon: <PartyPopper className="w-8 h-8 text-primary" />,
-  },
-  {
-    title: 'Momentos de Oración',
-    slug: 'momentos-oracion',
-    icon: (
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        className="w-8 h-8 text-primary"
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      >
-        <path d="M14.5 16.5a2.5 2.5 0 1 1-5 0" />
-        <path d="M17 12.2c0-1.5-.7-2.9-2-4" />
-        <path d="M12 12.5V10" />
-        <path d="M7 12.2c0-1.5.7-2.9 2-4" />
-        <path d="M4.8 14.5c0 3.2 2.8 5.8 6.2 6.5" />
-        <path d="M19.2 14.5c0 3.2-2.8 5.8-6.2 6.5" />
-        <path d="m12 6.5-1.5-2-1.5 2" />
-        <path d="M12 3v3.5" />
-      </svg>
-    ),
-  },
-  {
-    title: 'Estudios Bíblicos',
-    slug: 'estudios-biblicos',
-    icon: <BookOpen className="w-8 h-8 text-primary" />,
-  },
-  {
-    title: 'Servicio Comunitario',
-    slug: 'servicio-comunitario',
-    icon: <Handshake className="w-8 h-8 text-primary" />,
-  },
-];
-
-interface Foto {
-  src: string;
-  categoria: string;
-}
-
-export default function Gallery({
-  fotosPorCategoria,
-}: {
-  fotosPorCategoria: Record<string, string[]>;
-}) {
+export default function Gallery({ fotos }: { fotos: FotoGaleria[] }) {
   const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
+  const touchStartX = useRef<number | null>(null);
 
-  const allPhotos: Foto[] = galleryCategories.flatMap((categoria) =>
-    (fotosPorCategoria[categoria.slug] ?? []).map((src) => ({
-      src,
-      categoria: categoria.title,
-    }))
-  );
+  const selected = selectedIndex !== null ? fotos[selectedIndex] : null;
+  const total = fotos.length;
 
-  const selected = selectedIndex !== null ? allPhotos[selectedIndex] : null;
-  const total = allPhotos.length;
+  const verAnterior = () =>
+    setSelectedIndex((current) =>
+      current === null || total === 0 ? current : (current + total - 1) % total
+    );
 
-  const verAnterior = () => setSelectedIndex((current) => (current === null || total === 0 ? current : (current + total - 1) % total));
-  const verSiguiente = () => setSelectedIndex((current) => (current === null || total === 0 ? current : (current + 1) % total));
+  const verSiguiente = () =>
+    setSelectedIndex((current) =>
+      current === null || total === 0 ? current : (current + 1) % total
+    );
+
+  useEffect(() => {
+    if (selectedIndex === null) return;
+
+    const onKeyDown = (event: KeyboardEvent) => {
+      if (event.key === 'ArrowLeft') {
+        event.preventDefault();
+        setSelectedIndex((current) =>
+          current === null || total === 0 ? current : (current + total - 1) % total
+        );
+      } else if (event.key === 'ArrowRight') {
+        event.preventDefault();
+        setSelectedIndex((current) =>
+          current === null || total === 0 ? current : (current + 1) % total
+        );
+      }
+    };
+
+    window.addEventListener('keydown', onKeyDown);
+    return () => window.removeEventListener('keydown', onKeyDown);
+  }, [selectedIndex, total]);
+
+  const onTouchStart = (event: TouchEvent<HTMLDivElement>) => {
+    touchStartX.current = event.touches[0]?.clientX ?? null;
+  };
+
+  const onTouchEnd = (event: TouchEvent<HTMLDivElement>) => {
+    if (touchStartX.current === null) return;
+
+    const endX = event.changedTouches[0]?.clientX ?? touchStartX.current;
+    const delta = endX - touchStartX.current;
+
+    if (Math.abs(delta) > 50) {
+      if (delta > 0) {
+        verAnterior();
+      } else {
+        verSiguiente();
+      }
+    }
+
+    touchStartX.current = null;
+  };
 
   return (
     <section id="gallery" className="py-16 md:py-24 bg-background">
@@ -144,72 +122,66 @@ export default function Gallery({
           </div>
         </div>
 
-        <div className="mt-12 space-y-14">
-          {galleryCategories.map((categoria) => {
-            const fotos = fotosPorCategoria[categoria.slug] ?? [];
-            return (
-              <div key={categoria.slug}>
-                <div className="flex items-center gap-3 mb-6">
-                  {categoria.icon}
-                  <h3 className="text-2xl font-bold font-headline text-foreground">
-                    {categoria.title}
-                  </h3>
-                </div>
-
-                {fotos.length > 0 ? (
-                  <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
-                    {fotos.map((foto) => {
-                      const fotoIndex = allPhotos.findIndex((f) => f.src === foto && f.categoria === categoria.title);
-                      return (
-                        <button
-                          key={foto}
-                          type="button"
-                          onClick={() => setSelectedIndex(fotoIndex)}
-                          aria-label={`Ampliar fotografía de ${categoria.title}`}
-                          className="relative aspect-[4/3] overflow-hidden rounded-lg border border-border group cursor-zoom-in"
-                        >
-                          <Image
-                            src={foto}
-                            alt={`Fotografía de ${categoria.title}`}
-                            fill
-                            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                            className="object-cover transition-transform duration-300 group-hover:scale-105"
-                          />
-                        </button>
-                      );
-                    })}
-                  </div>
-                ) : (
-                  <div className="flex flex-col items-center justify-center py-12 text-center gap-4 rounded-lg border border-dashed border-border">
-                    <ImageOff className="w-12 h-12 text-muted-foreground" />
-                    <p className="text-lg text-muted-foreground">
-                      Aún no hay fotografías en esta categoría.
-                    </p>
-                    <p className="text-sm text-muted-foreground/80">
-                      Pronto compartiremos los momentos de {categoria.title.toLowerCase()}.
-                    </p>
-                  </div>
-                )}
-              </div>
-            );
-          })}
-        </div>
+        {total > 0 ? (
+          <div className="mt-12 columns-1 gap-4 sm:columns-2 lg:columns-3">
+            {fotos.map((foto, index) => (
+              <button
+                key={foto.src}
+                type="button"
+                onClick={() => setSelectedIndex(index)}
+                aria-label={`Ampliar: ${foto.alt}`}
+                className="relative block w-full mb-4 overflow-hidden border rounded-lg break-inside-avoid border-border group cursor-zoom-in"
+              >
+                <Image
+                  src={foto.src}
+                  alt={foto.alt}
+                  width={foto.width}
+                  height={foto.height}
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 320px"
+                  className="w-full h-auto transition-transform duration-300 group-hover:scale-105"
+                />
+              </button>
+            ))}
+          </div>
+        ) : (
+          <div className="flex flex-col items-center justify-center gap-4 py-16 mt-12 text-center border border-dashed rounded-lg border-border">
+            <ImageOff className="w-12 h-12 text-muted-foreground" />
+            <p className="text-lg text-muted-foreground">
+              Aún no hay fotografías en la galería.
+            </p>
+            <p className="text-sm text-muted-foreground/80">
+              Pronto compartiremos nuevos momentos de nuestra comunidad.
+            </p>
+          </div>
+        )}
       </div>
 
-      <Dialog open={selectedIndex !== null} onOpenChange={(open) => { if (!open) setSelectedIndex(null); }}>
+      <Dialog
+        open={selectedIndex !== null}
+        onOpenChange={(open) => {
+          if (!open) setSelectedIndex(null);
+        }}
+      >
         <DialogContent className="sm:max-w-5xl">
           <DialogHeader>
             <DialogTitle className="font-headline text-primary text-xl">
-              {selected ? `${selected.categoria} · ${(selectedIndex ?? 0) + 1} / ${total}` : ''}
+              {selected ? `Fotografía ${(selectedIndex ?? 0) + 1} de ${total}` : ''}
             </DialogTitle>
+            <DialogDescription className="sr-only">
+              Vista ampliada de la fotografía. Usa las flechas izquierda y derecha para navegar.
+            </DialogDescription>
           </DialogHeader>
           {selected && (
-            <div className="relative w-full h-[70vh] overflow-hidden rounded-lg bg-black/5">
+            <div
+              className="relative w-full h-[60vh] sm:h-[70vh] overflow-hidden rounded-lg bg-black/5"
+              onTouchStart={onTouchStart}
+              onTouchEnd={onTouchEnd}
+            >
               <Image
                 src={selected.src}
-                alt={`Fotografía ampliada de ${selected.categoria}`}
+                alt={selected.alt}
                 fill
-                sizes="90vw"
+                sizes="(max-width: 1024px) 90vw, 1024px"
                 className="object-contain"
               />
               {total > 1 && (
@@ -233,6 +205,9 @@ export default function Gallery({
                 </>
               )}
             </div>
+          )}
+          {selected && (
+            <p className="text-sm text-center text-muted-foreground">{selected.alt}</p>
           )}
         </DialogContent>
       </Dialog>

@@ -11,12 +11,12 @@ export const metadata: Metadata = {
 };
 
 export default async function GaleriaPage() {
-  const fotosPorCategoria = await leerFotosGaleria();
+  const fotos = await leerFotosGaleria();
   return (
     <div className="flex flex-col min-h-screen bg-background">
       <Header />
       <main className="flex-1">
-        <Gallery fotosPorCategoria={fotosPorCategoria} />
+        <Gallery fotos={fotos} />
       </main>
       <Footer />
     </div>
