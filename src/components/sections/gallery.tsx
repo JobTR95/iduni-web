@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useRef, useState, type TouchEvent } from 'react';
+import { useEffect, useMemo, useRef, useState, type TouchEvent } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import {
@@ -11,16 +11,36 @@ import {
   DialogTitle,
 } from '@/components/ui/dialog';
 import {
-  ImageOff,
-  Info,
   ChevronLeft,
   ChevronRight,
+  Droplets,
+  Flame,
+  ImageOff,
+  Info,
+  Users,
+  type LucideIcon,
 } from 'lucide-react';
-import type { FotoGaleria } from '@/lib/galeria-server';
+import type { CategoriaGaleria } from '@/lib/galeria-server';
 
-export default function Gallery({ fotos }: { fotos: FotoGaleria[] }) {
+const ICONOS: Record<string, LucideIcon> = {
+  'fiestas-ceremonias': Flame,
+  'bautismos-oracion': Droplets,
+  'cultos-comunidad': Users,
+};
+
+export default function Gallery({ categorias }: { categorias: CategoriaGaleria[] }) {
   const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
   const touchStartX = useRef<number | null>(null);
+
+  const fotos = useMemo(
+    () => categorias.flatMap((categoria) => categoria.fotos),
+    [categorias]
+  );
+
+  const indicePorSrc = useMemo(
+    () => new Map(fotos.map((foto, index) => [foto.src, index])),
+    [fotos]
+  );
 
   const selected = selectedIndex !== null ? fotos[selectedIndex] : null;
   const total = fotos.length;
@@ -91,7 +111,9 @@ export default function Gallery({ fotos }: { fotos: FotoGaleria[] }) {
 
         <div className="rounded-lg border border-primary/50 bg-secondary/50 p-6 shadow-lg">
           <p className="text-center text-lg text-muted-foreground">
-            Aquí compartimos los momentos especiales de nuestra comunidad. Fotografías de nuestros cultos, reuniones, festividades sagradas y actividades comunitarias que reflejan nuestra fe y unidad espiritual.
+            Aquí compartimos los momentos especiales de nuestra comunidad. Fotografías de nuestros
+            cultos, reuniones, festividades sagradas y actividades comunitarias que reflejan nuestra
+            fe y unidad espiritual.
           </p>
         </div>
 
@@ -123,25 +145,63 @@ export default function Gallery({ fotos }: { fotos: FotoGaleria[] }) {
         </div>
 
         {total > 0 ? (
-          <div className="mt-12 columns-1 gap-4 sm:columns-2 lg:columns-3">
-            {fotos.map((foto, index) => (
-              <button
-                key={foto.src}
-                type="button"
-                onClick={() => setSelectedIndex(index)}
-                aria-label={`Ampliar: ${foto.alt}`}
-                className="relative block w-full mb-4 overflow-hidden border rounded-lg break-inside-avoid border-border group cursor-zoom-in"
-              >
-                <Image
-                  src={foto.src}
-                  alt={foto.alt}
-                  width={foto.width}
-                  height={foto.height}
-                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 320px"
-                  className="w-full h-auto transition-transform duration-300 group-hover:scale-105"
-                />
-              </button>
-            ))}
+          <div className="mt-12 space-y-14">
+            {categorias.map((categoria) => {
+              const Icono = ICONOS[categoria.slug] ?? ImageOff;
+              const tituloId = `categoria-${categoria.slug}`;
+
+              return (
+                <section key={categoria.slug} aria-labelledby={tituloId}>
+                  <div className="mb-6 flex items-start gap-3">
+                    <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-primary/10 text-primary">
+                      <Icono className="h-5 w-5" aria-hidden="true" />
+                    </span>
+                    <div className="min-w-0">
+                      <h3
+                        id={tituloId}
+                        className="font-headline text-2xl font-bold text-primary md:text-3xl"
+                      >
+                        {categoria.titulo}
+                      </h3>
+                      <p className="mt-1 text-sm text-muted-foreground">
+                        {categoria.descripcion}
+                      </p>
+                    </div>
+                    <span className="ml-auto hidden shrink-0 rounded-full border border-border px-3 py-1 text-xs text-muted-foreground sm:inline-block">
+                      {categoria.fotos.length}{' '}
+                      {categoria.fotos.length === 1 ? 'fotografía' : 'fotografías'}
+                    </span>
+                  </div>
+
+                  <div className="columns-1 gap-4 sm:columns-2 lg:columns-3">
+                    {categoria.fotos.map((foto) => {
+                      const index = indicePorSrc.get(foto.src);
+
+                      return (
+                        <button
+                          key={foto.src}
+                          type="button"
+                          onClick={() => {
+                            if (index !== undefined) setSelectedIndex(index);
+                          }}
+                          aria-label={`Ampliar: ${foto.alt}`}
+                          className="relative block w-full mb-4 overflow-hidden border rounded-lg break-inside-avoid border-border group cursor-zoom-in"
+                        >
+                          <Image
+                            src={foto.src}
+                            alt={foto.alt}
+                            width={foto.width}
+                            height={foto.height}
+                            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 320px"
+                            className="w-full h-auto transition-transform duration-300 group-hover:scale-105"
+                          />
+                        </button>
+                      );
+                    })}
+                  </div>
+                </section>
+              );
+            })}
           </div>
         ) : (
           <div className="flex flex-col items-center justify-center gap-4 py-16 mt-12 text-center border border-dashed rounded-lg border-border">
